@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.h_a{
+    position: fixed;
+    top: 0;
+    background-color: #29bde0;
+    width: 100%;
+}
+.h_b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #74d4eb;
+    height: 50px;
+}
+.h_c{
+    height: 22px;
+}
+.h_d{
+    color: white;
+}
+.h_e{
+    height: 25px;
+}
+.main_aa{
+    padding-top: 50px;
+    height: 110vh;
+}
+.herd_a{
+    background-color: #29bde0;
+}
+.h_f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+}
+.h_g{
+    height: 35vw;
+}
+.h_h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+}
+.h_j{
+    width: 60%;
+    color: #f5c97b;
+}
+.h_k{
+    display: flex;
+    justify-content: center;
+}
+.h_l{
+   width: 60%;
+    color: white;
+    line-height: 3vh;
+    font-size: 13px;
+}
+.hh_k{
+    display: flex;
+    justify-content: center;
+}
+.hh_l{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+    line-height: 3vh;
+}
+.hh_ll{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+    font-size: 13px;
+}
+.main{
+    border-bottom: 1px solid #b3b3b3;
+}
+.main_a{
+    display: flex;
+    justify-content: center;
+}
+.main_b{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+.main_d{
+    color: #b3b3b3;
+    font-size: 10px;
+}
+.main_c{
+    display: flex;
+    justify-content: center;
+}
+.main_e{
+    width: 60%;
+    font-size: 13px;
+    color: darkgray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background: rgba(41,189,224,0.5) none repeat scroll !important;
+}
+.footer_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background-color: #f66f6f;
+}
+.footer_c{
+    width: 5%;
+}
+.footer_b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background-color: #f5c97b;
+}

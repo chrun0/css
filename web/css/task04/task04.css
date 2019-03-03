@@ -1,0 +1,109 @@
+div{
+    background-color: aliceblue;
+}
+.bos{
+    background-color: #68cdd5;
+    width: 100%;
+    height: 70px;
+}
+.bos1{
+    float: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: white;
+}
+.bos2{
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    color: white;
+    margin-right: 50px;
+}
+.bos3{
+    float: right;
+    margin-top: -20px;
+    padding-right: 20px;
+    color: white;
+}
+.boss{
+    background-color: white;
+    width:100%;
+    height: 50px;
+    margin-top: 10px
+}
+.loo{
+    background-color: white;
+    width: 15px;
+    margin-top: 14px;
+    float: left;
+    padding-left: 29px;
+    height: 25px;
+}
+.loo1{
+    outline:none;
+    border: 0;
+    width: 50%;
+    height: 26px;
+   background-color: white;
+    margin-left: 20px;
+    border-left: 1px solid #ccc;
+    padding-left: 40px;
+    margin-top: 12px;
+}
+.bots{
+    background-color: white;
+    width:100%;
+    height: 50px;
+    margin-top: 10px
+}
+.bots1{
+    float: left;
+    padding-left: 26px;
+    height: 26px;
+    margin-top:10px;
+    width: 20px;
+}
+.bots2{
+    outline:none;
+    border: 0;
+    height: 26px;
+    background-color: white;
+    margin-left: 18px;
+    border-left: 1px solid #ccc;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.boe{
+    background-color: #68cdd5;
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+    color: white;
+}
+.boe1{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+.bot{
+    float: top;
+    margin-top: 10px;
+}
+.cut{
+    display:block;;
+}
+body{
+    margin: 0px;
+}
+
+.box{
+    height: 50px;
+    float: right;
+}
+.bot13{
+    display: block;
+    float: right;
+    padding-top: 20px;
+    margin-right: 20px;
+    color: #68cdd5;
+}
