@@ -27,9 +27,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 50px;
     background-color: white;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
 }
 .header_five{
     margin-left:10px
@@ -51,9 +53,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 100%;
-    border-bottom: 1px solid #fde1ae;
+    width: 80%;
+    border-bottom: 1px solid #fbb435;
     background-color: white;
+    border-top: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
 }
 .comment_three{
     color: #fbb435;
@@ -62,9 +66,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 100px;
     background-color: white;
+    border-right: 1px solid #c9c9c9;
 }
 .comment_five{
     display: flex;
@@ -81,7 +86,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80%;
     height: 30px;
+    background-color: white;
+    border-right: 1px solid #c9c9c9;
+}
+.header_seven:hover{
+    text-decoration:none
 }
 .comment_eight{
     color: #787878;
@@ -89,14 +100,19 @@ body{
 .footer_one{
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 10px;
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    border-right: 1px solid #c9c9c9;
 }
 .footer_two{
     width: 10px;
     height: 10px;
     border-radius: 10px;
     margin-left: 3px;
+    background-color: #f0f0f0;
+}
+.footer_two:hover {
     background-color: #29bde0;
 }
 .footer_three{
@@ -106,9 +122,30 @@ body{
     margin-left: 3px;
    background-color: #f0f0f0;
 }
+.footer_three:hover {
+    background-color: #29bde0;
+}
 .comment{
     position: fixed;
-    top: 21rem;
+    top: 340px;
     height: 41px;
-    right: 2rem;
+    right: 15vw;
+}
+.comment_foot{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.comment_boot{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.footer_box{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 70px;
 }
