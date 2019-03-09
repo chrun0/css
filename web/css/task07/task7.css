@@ -54,7 +54,7 @@ body{
     align-items: center;
     height: 50px;
     width: 80%;
-    border-bottom: 1px solid #fbb435;
+    border-bottom: 2px solid #fbb435;
     background-color: white;
     border-top: 1px solid #c9c9c9;
     border-right: 1px solid #c9c9c9;
@@ -126,10 +126,10 @@ body{
     background-color: #29bde0;
 }
 .comment{
-    position: fixed;
+    position: absolute;
     top: 340px;
     height: 41px;
-    right: 15vw;
+    right: 17%;
 }
 .comment_foot{
     display: flex;

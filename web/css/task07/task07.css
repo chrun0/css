@@ -116,14 +116,21 @@ body{
 .c_a{
     display: flex;
     justify-content: space-around;
-    margin: 1vw;
-    width: 18vw;
-    height: 4vw;
+    margin: 1vw -1vw;
+    width: 22vw;
 }
 .aa_aa{
     display: none;
 }
 .comment_two:hover .aa_aa {
+    display: block;
+
+}
+.boot{
+    width: 20vw;
+    display: none;
+}
+.comment_two:hover .boot {
     display: block;
 
 }
