@@ -65,7 +65,7 @@ body{
     padding-left: 10px;
 }
 .item-three{
-    border: 1px solid #f1a750;
+    border: 1px solid #fe6712;
     height: 15px;
     width: 15px;
     border-radius: 15px;
@@ -74,11 +74,18 @@ body{
 .d-box{
     color: #26a26f;
 }
-.item-three:hover{
-    background-color: #f5c97b;
+/*.item-three:hover{*/
+    /*background-color: #fe6712;*/
+/*}*/
+/*.d-box:hover{*/
+    /*color: #fe6712;*/
+    /*text-decoration: none;*/
+/*}*/
+li:hover .item-three {
+    background-color: #fe6712;
 }
-.d-box:hover{
-    color: #f5c97b;
+li:hover a {
+    color: #fe6712;
     text-decoration: none;
 }
 .main-kong{
@@ -107,11 +114,6 @@ body{
 .box-big{
     height: 10vw;
 }
-
-
-
-
-
 .red-box{
     background-color: #26a26f;
 }
@@ -133,6 +135,7 @@ body{
 .red-cao{
     display: block;
     padding-top: 15px;
+    margin-right: 10px;
     color: white;
     font-size: 12px;
 }
@@ -144,10 +147,12 @@ body{
     padding-top: 15px;
     color: white;
     font-size: 12px;
+    margin-right: 10px;
 }
 .red-wei{
     display: block;
     padding-top: 15px;
+    padding-bottom: 5px;
     color: white;
     font-size: 12px;
 }

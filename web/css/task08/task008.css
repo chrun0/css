@@ -38,6 +38,7 @@ body{
 .text-one{
     height: 80px;
     border-bottom: 1px solid #b3b3b3;
+    margin: 0;
     align-content: center;
 }
 .ps-1{
@@ -49,6 +50,7 @@ body{
 .text-text{
    padding-top: 10px;
     border-bottom: 1px solid #b3b3b3;
+    margin: 0;
     padding-bottom: 10px;
 }
 .text-f{
@@ -66,6 +68,7 @@ body{
 .text-two{
     height: 80px;
     border-bottom: 1px solid #b3b3b3;
+    margin: 0;
     align-content: center;
 }
 .text-q{
@@ -266,6 +269,7 @@ body{
 .red-cao{
     display: block;
     padding-top: 15px;
+    margin-right: 10px;
     color: white;
     font-size: 12px;
 }
@@ -277,10 +281,12 @@ body{
     padding-top: 15px;
     color: white;
     font-size: 12px;
+    margin-right: 10px;
 }
 .red-wei{
     display: block;
     padding-top: 15px;
+    padding-bottom: 5px;
     color: white;
     font-size: 12px;
 }
@@ -300,7 +306,4 @@ body{
     text-align: center;
     font-size: 12px;
     color: white;
-}
-.active{
-
 }

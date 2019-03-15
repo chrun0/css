@@ -50,6 +50,9 @@ body{
 .main-box{
     height: 10vw;
 }
+.small-big{
+    text-align: -webkit-center;
+}
 
 .text-one{
     color:#999999;
@@ -67,13 +70,16 @@ body{
     height: 15vw;
 }
 .text-small{
-    padding-top: 7vw;
+    padding-top: 5vw;
 }
 .text-big{
     font-size: 20px;
 }
 .box-io{
     padding-top: 1vw;
+}
+.small-pig{
+    margin-bottom: 10px;
 }
 .big-box{
     min-width: 50px;
@@ -125,7 +131,7 @@ body{
     box-shadow:0 0 2px 3px #a3a3a3;
 }
 .box-id{
-    height: 6vw;
+    height: 10vw;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -172,6 +178,7 @@ body{
     padding-top: 15px;
     color: white;
     font-size: 12px;
+    margin-right: 10px;
 }
 .red-cao:hover{
     text-decoration:underline;
@@ -181,10 +188,12 @@ body{
     padding-top: 15px;
     color: white;
     font-size: 12px;
+    margin-right: 10px;
 }
 .red-wei{
     display: block;
     padding-top: 15px;
+    padding-bottom: 5px;
     color: white;
     font-size: 12px;
 }
