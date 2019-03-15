@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    background-color: #fafafa;
+}
+.text-box {
+    display: none;
+    padding-right: 15px;
+}
+@media screen and (max-width: 780px){
+    .text-box {
+        display: block;
+    }
+    .head-box {
+        display: none;
+    }
+}
+.head-box{
+    margin: 0px 25px 2px 0px;
+}
+.head-bot{
+    background-color: #26a26f;
+}
+.pho-img{
+    padding: 0;
+}
+.nav-link{
+    padding: 0;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+}
+.nav-link:hover{
+    border-bottom: 2px solid white;
+}
+.text-bot{
+    justify-content: flex-end;
+}
+.ihp-one{
+    width: 100%;
+}
+.text-one{
+    height: 80px;
+    align-content: center;
+}
+.text-z{
+    color: #26a26f;
+}
+.m-zero{
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding: 0;
+    height: 50%;
+}
+.m-one{
+    padding: 10px;
+}
+.d-m{
+    border-top: 1px solid #dddddd;
+}
+.text-m{
+   padding-left: 0;
+}
+.text-p{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.item-three{
+    border: 1px solid #f1a750;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.d-box{
+    color: #26a26f;
+}
+.item-three:hover{
+    background-color: #f5c97b;
+}
+.d-box:hover{
+    color: #f5c97b;
+    text-decoration: none;
+}
+.main-kong{
+   max-width: 65px;
+}
+.m-zer{
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding: 0;
+}
+.main-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+    margin: 0;
+}
+.text-small{
+    color: #b3b3b3;
+    font-size: 13px;
+}
+.main-2{
+    font-size: 13px;
+    color: #b3b3b3;
+    padding: 30px 70px 20px 70px;
+}
+.box-big{
+    height: 10vw;
+}
+
+
+
+
+
+.red-box{
+    background-color: #26a26f;
+}
+.red-ji{
+    display: block;
+    padding-top: 20px;
+    color: white;
+    font-size: 12px;
+}
+.red-gan{
+    display: block;
+    padding-top: 30px;
+    color: white;
+    font-size: 12px;
+}
+.red-gan:hover{
+    text-decoration:underline;
+}
+.red-cao{
+    display: block;
+    padding-top: 15px;
+    color: white;
+    font-size: 12px;
+}
+.red-cao:hover{
+    text-decoration:underline;
+}
+.red-pu{
+    display: block;
+    padding-top: 15px;
+    color: white;
+    font-size: 12px;
+}
+.red-wei{
+    display: block;
+    padding-top: 15px;
+    color: white;
+    font-size: 12px;
+}
+.red-tu{
+    display: block;
+    height: 75px;
+}
+.red-pu:hover{
+    text-decoration:underline;
+}
+.footer-box{
+    border-top: 1px solid white;
+    margin-top: 10px;
+}
+.footer-bot{
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
