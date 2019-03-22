@@ -42,6 +42,9 @@ body{
     height: 80px;
     align-content: center;
 }
+.text-nim{
+    margin: 0;
+}
 .text-z{
     color: #26a26f;
 }
