@@ -14,12 +14,12 @@ body{
 }
 .text-d{
     border-left: 1px solid white;
-    padding: 5px 0 5px 0;
+    padding: 7px 0 7px 0;
     color: white;
 }
 .text-f{
     border-right:1px solid white ;
-    padding: 5px 0 5px 0;
+    padding: 7px 0 7px 0;
     color: white;
 }
 .text-d:hover{
@@ -157,9 +157,7 @@ body{
     color: #a7a7a7;
 }
 input[type="radio"]:checked + label::before {
-    background-color: #1d7ad9;
-    background-clip: content-box;
-    padding: .2em;
+    border: 6px solid #1d7ad9;
 }
 input[type="radio"] + label::before {
     content: "\a0"; /*不换行空格*/
@@ -170,7 +168,7 @@ input[type="radio"] + label::before {
     height: 1em;
     margin-right: .4em;
     border-radius: 50%;
-    border: 1px solid #1d7ad9;
+    border: 1px solid #f1f1f1;
     text-indent: .15em;
     line-height: 1;
 }
@@ -282,4 +280,7 @@ input[type="radio"] {
     text-align: center;
     font-size: 12px;
     color: white;
+}
+.span{
+    width: 80%;
 }
