@@ -1,9 +1,11 @@
 
 body{
-  margin: 0 auto;
+
   max-width: 780px;
   min-width: 320px;
+  margin: auto;
 }
+
 header{
   width: 100%;
   height: 50px;
@@ -30,15 +32,25 @@ main {
   padding-top: 50px;
 }
 .head-box-jue{
+  display: flex;
+  align-items: center;
   height:200px;
   background: url("img/1.png") no-repeat ;
   background-size:100% 100%;
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
+
+  img {
+    width: 80px;
+    height: 80px;
+    padding: 0 20px;
+  }
   .box-two{
-    padding-left: 20px;
+
     color: white;
+    img {
+      width: 20px;
+      height: 20px;
+      padding: 0;
+    }
   }
 }
 .main-text-one{

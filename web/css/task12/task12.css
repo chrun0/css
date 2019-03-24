@@ -1,7 +1,7 @@
 body {
-  margin: 0 auto;
   max-width: 780px;
-  min-width: 320px; }
+  min-width: 320px;
+  margin: auto; }
 
 header {
   width: 100%;
@@ -27,15 +27,21 @@ main {
   padding-top: 50px; }
 
 .head-box-jue {
-  height: 200px;
-  background: url("img/1.png") no-repeat;
-  background-size: 100% 100%;
   display: flex;
   align-items: center;
-  padding-left: 20px; }
+  height: 200px;
+  background: url("img/1.png") no-repeat;
+  background-size: 100% 100%; }
+  .head-box-jue img {
+    width: 80px;
+    height: 80px;
+    padding: 0 20px; }
   .head-box-jue .box-two {
-    padding-left: 20px;
     color: white; }
+    .head-box-jue .box-two img {
+      width: 20px;
+      height: 20px;
+      padding: 0; }
 
 .main-text-one {
   border-bottom: 1px solid #C6C6C8;
