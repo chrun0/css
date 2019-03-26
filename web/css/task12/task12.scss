@@ -1,6 +1,13 @@
 
+.flex-box-style-1 {
+  display: flex;
+  align-items: center;
+}
+@mixin one{
+  height: 50px;
+  border-bottom: 1px solid #C6C6C8;
+}
 body{
-
   max-width: 780px;
   min-width: 320px;
   margin: auto;
@@ -9,8 +16,7 @@ body{
 header{
   width: 100%;
   height: 50px;
-  display: flex;
-  align-items: center;
+  @extend .flex-box-style-1;
   justify-content: space-between;
   background-color: #68cdd5;
   color: white;
@@ -25,15 +31,11 @@ header{
     margin: 0 0 0 -20px;
   }
 }
-.box{
-  padding-top: 50px;
-}
 main {
   padding-top: 50px;
 }
 .head-box-jue{
-  display: flex;
-  align-items: center;
+  @extend .flex-box-style-1;
   height:200px;
   background: url("img/1.png") no-repeat ;
   background-size:100% 100%;
@@ -54,10 +56,8 @@ main {
   }
 }
 .main-text-one{
-  border-bottom: 1px solid #C6C6C8;
-  height: 50px;
-  display: flex;
-  align-items: center;
+  @include one;
+  @extend .flex-box-style-1;
   span{
     border-left: 1.5px solid #68cdd5;
     margin-left: 13px;
@@ -65,10 +65,8 @@ main {
   }
 }
 .main-text-two{
-  border-bottom: 1px solid #C6C6C8;
-  height: 50px;
-  display: flex;
-  align-items: center;
+  @include one;
+  @extend .flex-box-style-1;
   margin-left: 20px;
   span{
     border-right: 1px solid #C6C6C8;
@@ -77,10 +75,8 @@ main {
   }
 }
 .main-text-three{
-  height: 50px;
-  border-bottom: 1px solid #C6C6C8;
-  display: flex;
-  align-items: center;
+  @include one;
+  @extend .flex-box-style-1;
   margin-left: 20px;
   .text-three{
     height: 25px;
@@ -99,8 +95,7 @@ main {
 }
 .main-text-four{
   border-bottom: 1px solid #C6C6C8;
-  display: flex;
-  align-items: center;
+  @extend .flex-box-style-1;
   margin-left: 20px;
   min-height: 50px;
   .cui_five{
@@ -118,8 +113,7 @@ footer{
 
   .footer-box{
     width: 100%;
-    display: flex;
-    align-items: center;
+    @extend .flex-box-style-1;
     position: fixed;
     bottom: 0;
     max-width: 780px;
@@ -131,8 +125,7 @@ footer{
     height: 47px;
     width: 50%;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
+    @extend .flex-box-style-1;
     justify-content:center;
     color: #68cdd5;
   }
@@ -141,8 +134,7 @@ footer{
     width: 50%;
     background-color: #68cdd5;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
+    @extend .flex-box-style-1;
     margin-left: 15px;
     justify-content:center;
     color: white;

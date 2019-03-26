@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .head{
     background-color: #1d7ad9;
