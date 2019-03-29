@@ -12,16 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f0afc0e8-4f08-4b75-bd9f-70bf32bb9cc8" name="Default Changelist" comment="task01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task12/task012.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task12/task012.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task12/task012.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/task12/task012.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task12/task012.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/task12/task012.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task12/task12.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task12/task12.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task12/task12.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/task12/task12.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task12/task12.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/task12/task12.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task13/task1-3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task13/task1-3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task13/task1-3.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/task13/task1-3.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task13/task1-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/task13/task1-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task13/task1-3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/task13/task1-3.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task13/task13.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task13/task13.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task13/task13.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/task13/task13.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task13/task13.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/task13/task13.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,13 +33,10 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/task13/task1-3.html">
+            <entry file="file://$PROJECT_DIR$/css/task13/task13.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
-                  <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-                  <folding>
-                    <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="456">
+                  <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -55,11 +45,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/task13/task1-3.scss">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/task13/task13.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="376">
-                  <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+                <state relative-caret-position="162">
+                  <caret line="165" column="28" selection-start-line="165" selection-start-column="28" selection-end-line="165" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/task13/task013.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="475">
+                  <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -131,19 +130,19 @@
         <option value="$PROJECT_DIR$/css/task11/task11.scss" />
         <option value="$PROJECT_DIR$/小课堂/代码演示.html" />
         <option value="$PROJECT_DIR$/css/task07/task07.css" />
-        <option value="$PROJECT_DIR$/css/task13/task013.scss" />
         <option value="$PROJECT_DIR$/css/task13/task013.html" />
         <option value="$PROJECT_DIR$/css/task12/task12.html" />
         <option value="$PROJECT_DIR$/css/task13/task13.html" />
-        <option value="$PROJECT_DIR$/css/task13/task13.scss" />
         <option value="$PROJECT_DIR$/css/task12/task12.scss" />
         <option value="$PROJECT_DIR$/css/task12/task012.scss" />
         <option value="$PROJECT_DIR$/css/task13/task1-3.html" />
         <option value="$PROJECT_DIR$/css/task13/task1-3.scss" />
+        <option value="$PROJECT_DIR$/css/task13/task13.scss" />
+        <option value="$PROJECT_DIR$/css/task13/task013.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="421" />
     <option name="y" value="12" />
     <option name="width" value="980" />
@@ -308,7 +307,7 @@
       <workItem from="1553822294539" duration="4290000" />
       <workItem from="1553835068173" duration="655000" />
       <workItem from="1553839438080" duration="10356000" />
-      <workItem from="1553855870587" duration="919000" />
+      <workItem from="1553855870587" duration="2841000" />
     </task>
     <task id="LOCAL-00001" summary="task01">
       <created>1550551656256</created>
@@ -328,7 +327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="834367000" />
+    <option name="totallyTimeSpent" value="836289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task13/task013.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/task13/task013.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -634,20 +626,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task13/img/menu-icon-2.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task13/task13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task13/task13.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task12/task012.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -681,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task13/task1-3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="1273">
           <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
           <folding>
             <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -693,6 +671,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task13/task13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task13/task13.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="165" column="28" selection-start-line="165" selection-start-column="28" selection-end-line="165" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task13/task013.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
         </state>
       </provider>
     </entry>

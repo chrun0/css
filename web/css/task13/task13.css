@@ -72,8 +72,9 @@ aside {
 
 main {
   background-color: #eff0f4;
-  width: 100%;
-  padding-top: 20px; }
+  width: 96%;
+  padding-top: 20px;
+  margin: auto; }
 
 .main-game {
   height: 80px;
@@ -94,10 +95,15 @@ main {
   line-height: 80px;
   background-color: white;
   color: #fbb435;
+  border-left: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9;
+  border-top: 1px solid #c9c9c9;
   border-bottom: 1px solid #fbb435; }
 
 .main-simple {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  border-left: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9; }
   .main-simple a {
     height: 60px;
     background-color: #29bde0;
@@ -113,6 +119,8 @@ main {
   background-image: url("img/02.png");
   background-repeat: no-repeat;
   background-position: right 10px top 10px;
+  border-left: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9;
   background-color: #ffffff; }
   .main-simple-one a {
     height: 60px;
@@ -126,11 +134,12 @@ main {
     color: #c9c9c9; }
 
 footer {
-  background-color: whitesmoke;
   height: 70px; }
   footer .footer-box {
-    width: 100%;
+    width: 95.7%;
     height: 40px;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
     background-color: white; }
   footer .circle {
     width: 10px;
