@@ -96,7 +96,7 @@ main {
 .main-text-four{
   border-bottom: 1px solid #C6C6C8;
   @extend .flex-box-style-1;
-  margin-left: 20px;
+  padding-left: 20px;
   min-height: 50px;
   .cui_five{
     min-width: 74px;
@@ -113,7 +113,8 @@ footer{
 
   .footer-box{
     width: 100%;
-    @extend .flex-box-style-1;
+    display: flex;
+    justify-content: space-around;
     position: fixed;
     bottom: 0;
     max-width: 780px;
@@ -123,7 +124,7 @@ footer{
   .footer-p{
     border: 1px solid#68cdd5;
     height: 47px;
-    width: 50%;
+    width: 45%;
     border-radius: 10px;
     @extend .flex-box-style-1;
     justify-content:center;
@@ -131,7 +132,7 @@ footer{
   }
   .footer-o{
     height: 47px;
-    width: 50%;
+    width: 45%;
     background-color: #68cdd5;
     border-radius: 10px;
     @extend .flex-box-style-1;

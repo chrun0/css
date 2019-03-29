@@ -1,4 +1,7 @@
-
+.flex-box-style-1 {
+  display: flex;
+  align-items: center;
+}
 body{
   margin: 0 auto;
   background-color: white;
@@ -8,8 +11,7 @@ body{
 header{
   background-color: #1ba2ea;
   height: 50px;
-  display: flex;
-  align-items: center;
+  @extend .flex-box-style-1;
   color: white;
   img{
     height: 18px;
@@ -24,8 +26,7 @@ main{
   background-color: #eff0f4;
  .box{
    height: 50px;
-   display: flex;
-   align-items: center;
+   @extend .flex-box-style-1;
    background-color: white;
   }
   img{
@@ -42,8 +43,7 @@ main{
 }
 .box-zero{
   height: 50px;
-  display: flex;
-  align-items: center;
+  @extend .flex-box-style-1;
   background-color: white;
   border-top: 3px solid #eff0f4;
   img{
@@ -64,11 +64,13 @@ main{
   justify-content: space-between;
   padding-bottom: 100px;
   margin: 0 10px 0 10px;
+span{
+  color: #999;
+}
 }
 .text-lg{
-  display: flex;
+  @extend .flex-box-style-1;
   justify-content: center;
-  align-items: center;
   .text-l{
     width: 90px;
     height: 2px;
@@ -76,13 +78,12 @@ main{
   }
 }
 footer{
-  display: flex;
+  @extend .flex-box-style-1;
   justify-content: center;
-  align-items: center;
   text-align: center;
   padding-top: 30px;
   background-color:#eff0f4 ;
-  padding-bottom: 130px;
+  padding-bottom: 200px;
   .weibo{
     margin: 0 14px 0 14px;
   }

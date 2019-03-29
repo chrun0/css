@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+}
+.flex-box-style-1{
+  display: flex;
+  align-items: center;
+}
+.flex-box-style-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.limit{
+  margin: auto;
+  max-width: 780px;
+  min-width: 320px;
+  width: 100%;
+  background-color: #29bde0;
+}
+header{
+  margin: auto;
+  max-width: 780px;
+  min-width: 320px;
+  background-color: #29bde0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  .head-game{
+    @extend .flex-box-style-1;
+    justify-content: space-between;
+    border-bottom: 1px solid #74d4eb;
+    height: 50px;
+    color: #fbfcff;
+    img{
+      height: 30px;
+      margin: 0 20px 0 20px;
+    }
+  }
+}
+main{
+  padding-top: 50px;
+  height: 110vh;
+}
+.main-lg-box{
+  margin: 0px 20% 0 20%;
+}
+.undercover-victory{
+  @extend .flex-box-style-2;
+  height: 160px;
+  img{
+    height: 100px;
+  }
+}
+.words-indicating{
+  @extend .flex-box-style-2;
+  height: 150px;
+  color: #f5c97b;
+}
+.professional{
+  height: 25px;
+  line-height: 25px;
+  color: white;
+  font-size: 13px;
+}
+.killer{
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #fbfcff;
+  font-size: 13px;
+}
+.main-lg-day-box{
+  background-color: #fbfcff;
+  border-bottom: 1px solid #b3b3b3;
+}
+.main-day-box{
+  margin: 0px 20% 0 20%;
+  color: #787878;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  .one-day{
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    a{
+      font-size: 13px;
+    }
+  }
+
+.main-eight{
+    height: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  }
+}
+footer{
+  margin: auto;
+  max-width: 780px;
+  min-width: 320px;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  @extend .flex-box-style-1;
+  justify-content: space-around;
+  background: rgba(41,189,224,0.5) none repeat scroll !important;
+  .to-a-game{
+    @extend .flex-box-style-2;
+    width: 45%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #f66f6f;
+    a{
+      text-decoration: none;
+      color: #fbfcff;
+    }
+  }
+  .upload{
+    @extend .flex-box-style-2;
+    width: 45%;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background-color: #f5c97b;
+  }
+}
