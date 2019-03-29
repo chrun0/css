@@ -28,7 +28,7 @@ header {
     border-radius: 6px;
     position: absolute;
     z-index: 10000;
-    margin-left: -38px;
+    margin-left: -35px;
     margin-top: -18px; }
   header .workers {
     justify-content: center;
@@ -39,7 +39,7 @@ header {
     border-radius: 6px;
     position: absolute;
     z-index: 10000;
-    margin-left: 38px;
+    margin-left: 35px;
     margin-top: -18px; }
   header img {
     padding-right: 20px; }
@@ -54,6 +54,7 @@ header {
     border: 1px solid #999;
     background: url("img12/xing 1.png") no-repeat center;
     background-position: 99% 20px;
+    background-color: #f0f0f0;
     cursor: pointer;
     width: 33.33%;
     height: 50px;
@@ -66,6 +67,8 @@ header {
     position: absolute;
     width: 100%;
     list-style: none; }
+  .below a {
+    text-decoration: none; }
   .below span {
     color: #6f8e8b; }
 
@@ -73,7 +76,8 @@ header {
   display: block; }
 
 main {
-  padding-top: 105px; }
+  background-color: #f0f0f0;
+  padding: 105px 0 60px 0; }
 
 .Service-date {
   height: 40px;
@@ -116,7 +120,7 @@ footer {
   position: fixed;
   bottom: 0;
   justify-content: space-around;
-  background: #f8fafb; }
+  background-color: #f0f0f0; }
   footer .footer-head {
     color: #5fc0cd; }
   footer .footer-me {
