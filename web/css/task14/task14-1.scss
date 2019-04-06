@@ -1,7 +1,4 @@
-body {margin: 0;}
-main{
-  background-color: #26a26f;
-}
+
 @media screen and (min-width: 780px){
  .nav-head{
    display: flex;
@@ -9,9 +6,6 @@ main{
    align-items: center;
    flex-wrap: wrap;
   }
-}
-.iph {
-  padding: 5px 0;
 }
 #nav-menu{
   display: none;
@@ -26,9 +20,10 @@ main{
     display: block;
     }
 }
-#nav-menu:checked ~ .list{
-
-  display: none;
+@media screen and (max-width: 780px){
+  #nav-menu:checked ~ .list{
+  display: block;
+  }
 }
 //#nav-menu:checked ~#nav-head{
 //  padding-left: 220px;
@@ -36,13 +31,13 @@ main{
 #nav-menu-control {
   display: block;
   font-family: Courier New;
+  width: 5rem;
   font-size: 4em;
-  width: 2rem;
-  height: 2rem;
-  line-height: 2rem;
+  line-height: 3rem;
   text-align: center;
   color: #fff;
   cursor: pointer;
+  padding-top: 5px;
 }
 //@media screen and (min-width: 780px){
 //  nav-menu-control{
@@ -53,6 +48,11 @@ main{
   text-align: center;
   padding: 0;
 }
+@media screen  and (max-width: 780px){
+  .list{
+    display: none;
+  }
+}
 @media screen and (min-width: 780px){
 .list {
   display: flex;
@@ -61,6 +61,7 @@ main{
 }
 .nav-link{
   text-decoration: none;
+  line-height: 60px;
 }
 .list-item {
   height: 60px;
