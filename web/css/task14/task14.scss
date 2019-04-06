@@ -33,6 +33,7 @@ body{
 .main-study{
   height: 10vw;
   align-items: center;
+  text-align: center;
   span{
     font-size: 20px;
   }
@@ -125,6 +126,11 @@ body{
     li{
       list-style-type: disc;
     }
+  }
+}
+@media screen and (max-width: 1280px){
+  .main-people{
+    border-left: 1px dashed #fff;
   }
 }
 

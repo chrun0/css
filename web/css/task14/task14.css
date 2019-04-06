@@ -28,7 +28,8 @@ body {
 
 .main-study {
   height: 10vw;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
   .main-study span {
     font-size: 20px; }
 
@@ -109,5 +110,9 @@ body {
       text-decoration: underline #26a26f; }
     .main-link span li {
       list-style-type: disc; }
+
+@media screen and (max-width: 1280px) {
+  .main-people {
+    border-left: 1px dashed #fff; } }
 
 /*# sourceMappingURL=task14.css.map */

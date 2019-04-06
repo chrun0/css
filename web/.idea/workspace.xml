@@ -12,24 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0afc0e8-4f08-4b75-bd9f-70bf32bb9cc8" name="Default Changelist" comment="task01">
-      <change afterPath="$PROJECT_DIR$/css/task14/task-1401.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/task14/task-1402.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/task14/task-1402.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/task14/task-lun-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/task14/task-lun=14.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/task14/task-touwei-14.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task14/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task14/task-bootstrap-14.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task-bootstrap-14.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task14/task-flex-14.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task-1401.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task14/task-sgbj-14.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task14/task14-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task14-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task14/task14-1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task14-1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task14/task14-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task14-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task14/task14-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task14-1.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/task14/task14.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task14.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/task14/task14.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task14.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task14/task14.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task14.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/task14/task14.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/task14.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/task14/task14.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="234" column="67" selection-start-line="234" selection-start-column="67" selection-end-line="234" selection-end-column="67" />
+            <state relative-caret-position="86">
+              <caret line="312" column="35" selection-start-line="312" selection-start-column="35" selection-end-line="312" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -58,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/task14/task14.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="1112">
+              <caret line="130" column="34" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -67,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/task14/task14-1.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1273">
+            <state relative-caret-position="817">
               <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
               <folding>
                 <marker date="1554519073080" expanded="true" signature="656:747" ph="..." />
@@ -344,7 +329,7 @@
       <workItem from="1554425737118" duration="5743000" />
       <workItem from="1554450217624" duration="22856000" />
       <workItem from="1554480482746" duration="599000" />
-      <workItem from="1554511997369" duration="6996000" />
+      <workItem from="1554511997369" duration="10051000" />
     </task>
     <task id="LOCAL-00001" summary="task01">
       <created>1550551656256</created>
@@ -364,7 +349,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="986848000" />
+    <option name="totallyTimeSpent" value="989903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,7 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task14/task14-1.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
+        <state relative-caret-position="817">
           <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding>
             <marker date="1554519073080" expanded="true" signature="656:747" ph="..." />
@@ -707,15 +692,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task14/task14.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="1112">
+          <caret line="130" column="34" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task14/task14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="234" column="67" selection-start-line="234" selection-start-column="67" selection-end-line="234" selection-end-column="67" />
+        <state relative-caret-position="86">
+          <caret line="312" column="35" selection-start-line="312" selection-start-column="35" selection-end-line="312" selection-end-column="35" />
         </state>
       </provider>
     </entry>
