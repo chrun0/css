@@ -1,0 +1,13 @@
+@mixin  but(){
+  padding: 1.6rem;
+  border: 1px solid rgba($default-color,.3);
+  width: 30rem;
+  max-width: 90%;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+  overflow: hidden;
+  border-radius: 5px;
+  z-index: 2000;
+}
