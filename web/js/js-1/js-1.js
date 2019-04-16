@@ -41,8 +41,9 @@ function changecolor() {
             var two = z[b].style.backgroundColor = colors();
             var three = z[c].style.backgroundColor = colors();
         }
-    }, 1000)
-    document.getElementsByClassName("but").disabled = false; //禁用开始按钮
+    }, 1000);
+    document.getElementById("start").disabled = true; //禁用开始按钮
+    // document.getElementsByClassName("start").disabled = true; //禁用开始按钮
 }
 //设置重置
 function end() {
@@ -50,5 +51,5 @@ function end() {
         z[l].style.backgroundColor = "orange"; //恢复默认颜色
     }
     clearInterval(time); //去除延时
-    document.getElementsByClassName("start").disabled = true; //启用开始按钮
+    document.getElementById("start").disabled=false; //启用开始按钮
  }
