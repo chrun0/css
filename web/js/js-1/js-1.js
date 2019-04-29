@@ -24,12 +24,11 @@ function colors() { //选取的rgb颜色
     console.log(rgb);//输出
     return rgb;//返回
 }
-
 var time;
 function changecolor() {
     time = setInterval(function () {
         for (var i = 0; i < z.length; i++) {
-            z[i].style.backgroundColor = "orange"; //每次获取随机颜色后恢复默认颜色
+            z[i].style.backgroundColor = "#ffa500"; //每次获取随机颜色后恢复默认颜色
         }
         for (;a == b || b == c || c == a;) {//当abc有任意两个相等，就开始运行，直到没有相等。选择三个不相同的随机数
             var a = Math.floor(Math.random() * 9);
@@ -48,7 +47,7 @@ function changecolor() {
 //设置重置
 function end() {
     for (var l = 0; l < z.length; l++) {
-        z[l].style.backgroundColor = "orange"; //恢复默认颜色
+        z[l].style.backgroundColor = "#ffa500"; //恢复默认颜色
     }
     clearInterval(time); //去除延时
     document.getElementById("start").disabled=false; //启用开始按钮

@@ -4,11 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
+    <title>玩家配比</title>
     <link rel="stylesheet" href="js-02.css">
 </head>
 <body>
-
+<header>
+    <img src="img2/js-02.js.png" height="32" width="18"/>
+    <span>参数设置</span>
+    <img src="img2/circled-help.png" height="32" width="32"/>
+</header>
+<main>
+    <div class="the-player">
+        <span>玩</span>
+        <span>家</span>
+        <span>配</span>
+        <span>比</span>
+    </div>
+    <div class="users-box">
+        <div class="users">
+            <div class="people">
+                <p></p>
+                <span>&nbsp;杀手&nbsp;</span>
+                <a id="dm">1</a>
+                <span>&nbsp;人</span>
+            </div>
+            <div class="people-kill">
+                <p></p>
+                <span>&nbsp;平民&nbsp;</span>
+                <a id="sm">3</a>
+                <span>&nbsp;人</span>
+            </div>
+        </div>
+        <div class="click-">
+            <span>点击设置</span>
+            <img src="img2/pencil.png" height="14" width="14"/>
+        </div>
+    </div>
+</main>
+<div class="input-box ">
+    <div class="word-group">
+        <span>水民词组:</span>
+        <input id="Water-people" name="Water-people" type="text" maxlength="11"onkeyup="value=value.replace(/[\d]/g,'')" placeholder="&nbsp;限输入10个字以内">
+    </div>
+    <div class="word-group">
+        <span>幽灵词组:</span>
+        <input id="spirit" name="spirit" type="text" maxlength="11"onkeyup="value=value.replace(/[\d]/g,'')" placeholder="&nbsp;限输入10个字以内">
+    </div>
+</div>
+<div class="Number-of-players">
+    <span>玩家人数
+        <input type="text" maxlength="2" class="player-num" id="player" onchange="allocation () ,on_change(),shuffle(this.value)" oninput=" " value="4"  max="18" min="6"  onkeyup="value=value.replace(/[^\d]/g,'') " >
+        人
+    <a>(玩家数量为4～18)</a>
+    </span>
+</div>
+<div class="slider-box">
+    <button onclick="minus() ,allocation(),shuffle()">-</button>
+    <input type="range"  name="points" value="4" min="4" max="18" id="slider" oninput="aroundr(this.value),allocation() ,shuffle() " onchange="aroundr(this.value),allocation() ">
+    <button onclick="plus(),allocation() ,shuffle()" >+</button>
+</div>
+<footer>
+<button type="button" onclick="go() ">去发牌</button>
+</footer>
 </body>
-<script src="js-2.js"></script>
+<script src="js-02.js"></script>
 </html>
+
