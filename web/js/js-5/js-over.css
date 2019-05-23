@@ -1,0 +1,67 @@
+body {
+  margin: auto;
+  max-width: 708px;
+  min-width: 320px; }
+
+.backdrop {
+  background: #fff; }
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #29bde0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  width: 100%;
+  max-width: 708px;
+  min-width: 320px; }
+  header img {
+    margin: 0 10px 0 10px;
+    cursor: pointer; }
+
+main {
+  text-align: center;
+  background: #29bde0;
+  color: #fff;
+  padding-top: 5rem; }
+  main span {
+    display: block;
+    position: relative;
+    bottom: 33px; }
+  main p {
+    color: #6f42c1;
+    font-weight: bold; }
+  main pre {
+    margin: 5% 20% 0 -20%;
+    color: #c82333;
+    font-weight: bold;
+    font-size: 1.3rem; }
+
+.state {
+  height: 100vh; }
+
+.gameday {
+  padding: 0px 5%;
+  border-bottom: 1px solid #999999;
+  color: #c69500;
+  font-size: 13px; }
+
+footer span {
+  margin: auto;
+  max-width: 708px;
+  min-width: 320px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  background: #29bde0;
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+  cursor: pointer; }
+
+/*# sourceMappingURL=js-over.css.map */

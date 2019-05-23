@@ -1,6 +1,6 @@
 body{
   margin: auto;
-  max-width: 708px;
+  max-width: 780px;
   min-width: 320px;
 }
 header{
@@ -10,12 +10,13 @@ header{
   align-items: center;
   background-color: #29bde0;
   color: #fff;
-  border-bottom: 1px #fff;
+  border-bottom: 1px solid #fff;
   img{
     margin: 0 5px 0 5px;
   }
 }
 main{
+  height: 85vh;
   padding-top: 20px;
   text-align: center;
   background-color: #29bde0;
@@ -27,6 +28,8 @@ main{
     background-color: #fff;
     border: solid #ffedc5;
     margin: auto;
+    line-height: 36px;
+    color: #fe6712;
   }
   .image-center{
     display: flex;
@@ -38,19 +41,34 @@ main{
     border: 2px solid #fff;
     border-radius: 5px;
     background-color: #ffedc5;
-    height: 30rem;
+    height: 35rem;
+  }
+  #civilian{
+    line-height: 3.5rem;
+    color: #fe6712;
+    border-top: solid#fff;
+  }
+  span{
+    color: #26a26f;
   }
 }
 footer{
+  width: 100%;
+  max-width: 780px;
+  min-width: 320px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
   padding: 25px 0;
   background-color: #29bde0;
   button{
-    width: 100%;
+    width: 76%;
     height: 50px;
     outline: none;
     border: 1px solid #ffa500;
     font-size: 25px;
     color: #fff;
     background: #ffa600;
+    cursor: pointer;
   }
 }

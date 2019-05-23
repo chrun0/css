@@ -1,0 +1,94 @@
+body{
+  margin: auto;
+  max-width: 780px;
+  min-width: 320px;
+}
+header{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #29bde0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  margin: auto;
+  max-width: 780px;
+  min-width: 320px;
+  z-index: 1;
+  img{
+    margin: 0 5px 0 5px;
+  }
+}
+main{
+  padding-top: 50px;
+  height: 115vh;
+  background-color: #29bde0;;
+  .box{
+    width: 25%;
+    float: left;
+    margin: 5% 0 0 6.5%;
+    position: relative;
+  }
+  .lg-box{
+    border: 3px solid #fff;
+  }
+  .center-num{
+    background-color: #f5c97b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    font-size: 1.2rem;
+    color: black;
+  }
+  .index{
+    background: #565656;
+  }
+  .sm-num{
+    text-align: center;
+    color: #fff;
+    background-color: #83b09a;
+    padding: 5% 0 5% 0;
+    font-size: .9rem;
+  }
+}
+.knifc{
+  position: absolute;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  left: 50%;
+  right: 50%;
+  margin-left: -.5rem;
+  width: 1rem;
+  height: 1rem;
+  //display: none;
+}
+//.box:hover {
+//  .knifc {
+//    display: block;
+//  }
+//}
+footer{
+  width: 100%;
+  max-width: 780px;
+  min-width: 320px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 25px 0;
+  background-color: #29bde0;
+  button{
+    width: 76%;
+    height: 50px;
+    outline: none;
+    border: 1px solid #ffa500;
+    font-size: 25px;
+    color: #fff;
+    background: #ffa600;
+    cursor: pointer;
+  }
+}
+

@@ -18,7 +18,8 @@ button {
   font-size: 15px;
   color: orange;
   background: white;
-  outline: none; }
+  outline: none;
+  cursor: pointer; }
 
 button:hover {
   background: orange;

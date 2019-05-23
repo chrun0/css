@@ -9,9 +9,9 @@
 </head>
 <body>
 <header>
-    <img src="img2/js-02.js.png" height="32" width="18"/>
+    <img id="back" src="img2/js-02.js.png" height="32" width="18" />
     <span>参数设置</span>
-    <img src="img2/circled-help.png" height="32" width="32"/>
+    <img  src="img2/circled-help.png" height="32" width="32"/>
 </header>
 <main>
     <div class="the-player">
@@ -25,13 +25,13 @@
             <div class="people">
                 <p></p>
                 <span>&nbsp;杀手&nbsp;</span>
-                <a id="dm">1</a>
+                <a id="killer">1</a>
                 <span>&nbsp;人</span>
             </div>
             <div class="people-kill">
                 <p></p>
                 <span>&nbsp;平民&nbsp;</span>
-                <a id="sm">3</a>
+                <a id="civilian">3</a>
                 <span>&nbsp;人</span>
             </div>
         </div>
@@ -53,7 +53,7 @@
 </div>
 <div class="Number-of-players">
     <span>玩家人数
-        <input type="text" maxlength="2" class="player-num" id="player" onchange="allocation () ,on_change(),shuffle(this.value)" oninput=" " value="4"  max="18" min="6"  onkeyup="value=value.replace(/[^\d]/g,'') " >
+        <input type="text" maxlength="2" class="player-num" id="player" onblur="allocation () ,on_change(),shuffle(this.value)"onchange="allocation () ,on_change(),shuffle(this.value)"  max="18" min="6"  onkeyup="value=value.replace(/[^\d]/g,'') " >
         人
     <a>(玩家数量为4～18)</a>
     </span>

@@ -44,6 +44,7 @@ function changecolor() {
     document.getElementById("start").disabled = true; //禁用开始按钮
     // document.getElementsByClassName("start").disabled = true; //禁用开始按钮
 }
+
 //设置重置
 function end() {
     for (var l = 0; l < z.length; l++) {

@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>葡萄藤PPT</title>
+
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/reveal.css">
+
+    <!-- PPT主题，可以在/css/reveal/theme/中选择其他主题，目前暂时只能使用该模板 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/theme/ptt.css">
+
+    <!-- syntax highlighting 代码高亮主题 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/lib/reveal/css/zenburn.css">
+
+    <style>
+        .float {
+            float: left;
+        }
+
+        p.font {
+            text-align: left;
+        }
+    </style>
+
+
+    <!-- 打印和PDF输出样式 -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ?
+            'https://ptteng.github.io/PPT/css/reveal/print/pdf.css' : '../css/reveal/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+<img src="img/2018-11-16-A-css01/logo.png" alt="" usemap="#pttmap" class="base-logo" style="visibility: hidden">
+<map name="pttmap">
+    <area shape="rect" coords="0,0,276,58" href="http://www.jnshu.com/" alt="" target="_blank">
+</map>
+<div class="reveal slide center" role="application" data-transition-speed="default" data-background-transition="fade">
+    <div class="slides" style="width: 960px; height: 700px; left: 50%; top: 50%; bottom: auto; right: auto; transform: translate(-50%, -50%) scale(0.794571);">
+        <section class="present" style="top: 234px; display: block;">
+            <h3>【js-task-1】 JS中基本类型和引用类型分别指的的是什么？有何区别？</h3>
+            <p style="text-align: center;">分享人：崔浩然</p>
+
+        </section>
+        <section class="future" style="top: 3px; display: block;" hidden="" aria-hidden="true">
+            <p>目录</p>
+            <p>1. 背景介绍</p>
+            <p>2. 知识剖析</p>
+            <p>3. 常见问题</p>
+            <p>4. 解决方案</p>
+            <p>5. 编码实战</p>
+            <p>6. 扩展思考</p>
+            <p>7. 参考文献</p>
+            <p>8. 更多讨论</p>
+        </section>
+        <section class="future" style="top: 267px; display: block;" hidden="" aria-hidden="true">
+            <h3>一、背景介绍</h3>
+        </section>
+        <section class="future" style="top: 190px; display: none;" hidden="" aria-hidden="true">
+            <p></p>
+            <p>基本数据类型：按值访问，可操作保存在变量中的实际的值。基本类型值指的是简单的数据段。
+
+                基本数据类型有这六种:Undefined、Null、String、Number、Boolean es6。
+                引用类型：
+                引用类型会比较好玩有趣一些。
+                javascript中除了上面的基本类型(number,string,boolean,null,undefined)之外就是引用类型了，也可以说是就是对象了。对象是属性和方法的集合。也就是说引用类型可以拥有属性和方法，属性又可以包含基本类型和引用类型。
+            </p>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>二、知识剖析</h3>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <pre>
+                1.Number
+Number类型包含整数和浮点数（浮点数数值必须包含一个小数点，且小数点后面至少有一位数字）
+两种值。
+NaN:非数字类型。两大特点：1.涉及到的 任何关于NaN的操作，都会返回NaN。2. NaN不等于自身。</pre>
+            <pre>
+                2.String字符串
+字符串是存储字符的变量,由双引号(" ")或单引号(' ')表示字符串有length属性。
+可以取得字符串的长度。字符串转换：转型函数String(),
+ 适用于任何数据类型（null,undefined 转换后为null和undefined）；
+ toString()方法（null,undefined没有toString()方法）。
+            </pre>
+            <pre>
+                3.Boolean布尔值
+只有两个值，true和false;在运算中true=1,false=0。
+            </pre>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <pre>
+               4.Undefined
+只有一个值，即undefined值。使用var声明了变量，但未给变量初始化值，
+ 那么这个变量的值就是undefined。</pre>
+            <pre>
+               5.Null
+也是只有一个值的数据类型，null值表示一个空对象指针，
+ 使用typeof操作符检测null值会返回"object"
+            </pre>
+            <pre>
+             6.常见的引用类型
+Object类型:带有属性和方法的特殊数据类型。
+Array:是使用单独的变量名来存储一系列的值。
+Function:函数类型在JavaScript中也是对象
+            </pre>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>三、常见问题</h3>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <p>对于基本类型值和引用类型值的区别</p>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>四、解决办法</h3>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <p>
+                ① 引用类型值可添加属性和方法，基本类型的比较是值的比较，而基本类型值则不可以,可以理解为基本类型值是不变的，
+            <pre>
+
+            //为引用类型值添加属性
+            var p = new Object();
+            p.age=18;
+            alert(p.age);//18
+            console.log(p)
+            </pre>
+            <pre>
+
+                //为基本类型值添加属性
+                var name = 'a';
+                name.age = 18;
+                alert(name.age); //undefined
+                //任何方法都无法改变一个基本类型的值
+            </pre>
+            </p>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <p>
+                ② 在复制变量值时，基本类型会在变量对象上创建一个新值，再复制给新变量。此后，两个变量的任何操作都不会影响到对方。而引用类型在创建一个对象类型时，计算机会在内存中开辟一个空间来存放值，我们要找到这个空间，需要知道这个空间的地址，变量存放的就是这个地址，复制变量时其实就是将地址复制了一份给新变量，两个变量的值都指向存储在堆中的一个对象，也就是说，其实他们引用了同一个对象，改变其中一个变量就会影响到另一个变量。
+                简单来讲就是基本类型的变量是存放在栈区的（栈区指内存里的栈内存）
+                引用类型的值是同时保存在栈内存和堆内存中的对象
+
+            <pre>
+
+            //基本类型值
+            var a = 'a';
+            var b = a;
+            a = 'b';
+            alert(b); //a
+            </pre>
+            </p>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <p>
+                引用类型值，以数组为例：
+            <pre>
+                //引用类型值,以数组为例
+
+               //1.对其中一个变量直接赋值不会影响到另一个变量（并未操作引用的对象）
+               var a = [1,2,3];
+               var b = a;
+                a = [1,2,3,4];
+               alert(a);//1,2,3,4
+               alert(b); //1,2,3
+
+                //2.使用push(操作了引用的对象)
+               var a = [1,2,3];
+               var b = a;
+               a.push(4);
+               alert(a);//1,2,3,4
+               alert(b); //1,2,3,4
+
+            </pre>
+            </p>
+        </section>
+
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>五、编码实战</h3>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>六、拓展思考</h3>
+        </section>
+        <section class="future" style="top: 97.5px; display: none;" hidden="" aria-hidden="true">
+
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>七、参考文献</h3>
+        </section>
+        <section class="future" style="top: 178px; display: none;" hidden="" aria-hidden="true">
+            <p>参考一：<a href="https://www.cnblogs.com/xuniannian/p/7452086.html1">博乐园</a></p><br>
+            <!--<p>参考二： <a href="http://blog.sina.com.cn/s/blog_67f70dd80102xpem.html">前端为什么一定要做组件化</a></p><br>-->
+
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>八、更多讨论</h3>
+        </section>
+        <section class="future" style="top: 202.5px; display: none;" hidden="" aria-hidden="true">
+            <h3>感谢观看</h3>
+        </section>
+    </div>
+    <div class="backgrounds"><div class="slide-background present" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;"><button class="navigate-left" aria-label="previous slide"></button><button class="navigate-right enabled" aria-label="next slide"></button><button class="navigate-up" aria-label="above slide"></button><button class="navigate-down" aria-label="below slide"></button></aside><div class="slide-number" style="display: none;"></div><div class="speaker-notes" data-prevent-swipe=""></div><div class="pause-overlay"></div><div id="aria-status-div" aria-live="polite" aria-atomic="true" style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);">
+    【JS-TASK-1】 JS中基本类型和引用类型分别指的的是什么？有何区别？
+
+    分享人：崔浩然
+</div></div>
+<script src="https://ptteng.github.io/PPT/lib/reveal/js/head.min.js"></script>
+<script src="https://ptteng.github.io/PPT/lib/reveal/reveal.js"></script>
+<script>
+    Reveal.initialize({
+        history: true,
+        dependencies: [{
+            src: 'https://ptteng.github.io/PPT/plugin/markdown/marked.js'
+        },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/markdown/markdown.js'
+            },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/notes/notes.js',
+                async: true
+            },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+</script>
+
+</body></html>

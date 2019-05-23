@@ -1,0 +1,109 @@
+body{
+  margin: auto;
+  max-width: 708px;
+  min-width: 320px;
+}
+.backdrop{
+  background: #f0f0f0;
+}
+header{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #29bde0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  img{
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+  }
+}
+main{
+  height: 101vh;
+  .day{
+    border: 1px solid #c9c9c9;
+    background: #fff;
+    margin: 1.5rem;
+    text-align: center;
+    line-height: 45px;
+    color: #29bde0;
+    cursor: pointer;
+
+  }
+  .vote{
+    border-top: 1px solid #c9c9c9;
+    background: #fff;
+
+    .box{
+      margin: 0 2rem 1.4rem 2.5rem;
+      border-left: 3px solid #c9c9c9;
+    }
+    .killer-to-kill{
+      position: relative;
+      margin: 1.5rem 0rem 0.2rem 2rem;
+      text-align: center;
+      line-height: 35px;
+      color: #fff;
+      cursor: pointer;
+      .kill-box{
+        background: #29bde0;
+      }
+      .deaderTall{
+        background: #29bde0;
+      }
+      .liveTall{
+        background: #29bde0;
+      }
+      .vote-box{
+        background: #29bde0;
+      }
+      .triangle{
+        position: absolute;
+        left: -8px;
+        top: 10px;
+        border-right: .5rem solid #29bde0;
+        border-top: transparent solid .5rem;
+        border-bottom: transparent solid .5rem;
+      }
+      img{
+        position: absolute;
+        background: #fff;
+        left: -3rem;
+        top: 0;
+      }
+    }
+    .index{
+      background: #565656;
+    }
+  }
+}
+footer{
+  width: 100%;
+  max-width: 708px;
+  min-width: 320px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #29bde0;
+  height: 60px;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  .end-game{
+    width: 45%;
+    line-height: 50px;
+    text-align: center;
+    background: orange;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .judge{
+    width: 45%;
+    line-height: 50px;
+    text-align: center;
+    background: orange;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}

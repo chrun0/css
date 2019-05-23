@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  max-width: 708px;
+  max-width: 780px;
   min-width: 320px;
   background-color: #efefef; }
 
@@ -144,6 +144,7 @@ footer {
     font-size: 1.5rem;
     color: #fff;
     background: #FAB344;
-    outline: none; }
+    outline: none;
+    cursor: pointer; }
 
 /*# sourceMappingURL=js-02.css.map */
