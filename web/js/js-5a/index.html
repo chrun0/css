@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>逗你玩</title>
+    <link rel="stylesheet" href="js-5.css">
+
+</head>
+<body>
+    <div class="page">
+    <p>后台登录</p>
+    <div class="input-box">
+        <img src="img/00(1).png" height="32" width="32"/>
+        <input id="account" onkeyup="this.value=this.value.replace(/[^\w_]/g,'');" maxlength="11" type="text"  placeholder="请输入账号">
+    </div>
+    <div class="input-box">
+        <img src="img/00o (2).png" height="32" width="32"/>
+        <input id="password" type="text" style="-webkit-text-security:disc" maxlength="15" placeholder="请输入密码">
+    </div>
+        <p class="hint" id="hint"></p>
+        <!--<button type="button" class="but" onclick="login()">登录</button>-->
+        <div id="button" class="but" type="button" onclick="login()">登录</div>
+    </div>
+</body>
+<script src="jquery/jquery-3.4.0.js"></script>
+<script src="js-5.js"></script>
+</html>

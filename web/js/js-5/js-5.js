@@ -1,10 +1,10 @@
 arr=JSON.parse(sessionStorage.getItem("player"));//获得储存值//不会取浏览器中数组
-// console.log(arr);
+console.log(arr);
 day=JSON.parse(sessionStorage.getItem("DAY"));
-// console.log(day);//获得初始化天数的对象
-// console.log(typeof (day));
-// console.log(parseInt(day));
-// console.log(typeof (parseInt(day)));
+console.log(day);//获得初始化天数的对象
+console.log(typeof (day));
+console.log(parseInt(day));
+console.log(typeof (parseInt(day)));
 $(function(){
     // $("#back").click(function () {
     //     window.location="../js-4/js-4.html"
@@ -37,9 +37,9 @@ dayText=["零","一","二","三","四","五","六","七","八","九","十"];
 dayEnglish=["zero","one-day","two-day","three-day",
     "four-day","five-day","six-day", "seven-day","eight-day"];
 //为了是class命名语义化且正规，且方便用jqurey去寻找，也同样用了一个新数组
-// console.log(dayText[parseInt(day)]);
-// console.log( parseInt(day));
-// console.log( typeof(parseInt(day)));
+console.log(dayText[parseInt(day)]);
+console.log( parseInt(day));
+console.log( typeof(parseInt(day)));
 //利用for和es6把他们渲染到html
 for(i=1;i <= parseInt(day) ;i++) {
     $("main").append(
@@ -87,8 +87,8 @@ for (i=0;i<arr.length;i++){
         //if作用：先将数组里被杀手杀的的对象筛选出来
         var deadTime=arr[i].day;//获取死亡天数
         var xxx = dayEnglish[deadTime];//获取对应的css的类的名称
-        // console.log(xxx);//打印对应css的类的名称
-        // console.log("."+ xxx);//检验$()搜索规则是否标准
+        console.log(xxx);//打印对应css的类的名称
+        console.log("."+ xxx);//检验$()搜索规则是否标准
         $("."+ xxx).children().children().children(".condition").append(//放到对应CSS下（那天死的，放到那天下）
             `<div style="color: black">${i+1}号被杀死，真实身份是${arr[i].name}</div>`
         );
@@ -99,8 +99,8 @@ for (i=0;i<arr.length;i++){
     if (arr[i].caonima =="被全民投票杀死" ){
         var deadTime=arr[i].day;//获取死亡天数
         var xxx = dayEnglish[deadTime];//获取对应的css的类的名称
-        // console.log(xxx);//打印对应css的类的名称
-        // console.log("."+ xxx);//检验$()搜索规则是否标准
+        console.log(xxx);//打印对应css的类的名称
+        console.log("."+ xxx);//检验$()搜索规则是否标准
             $("."+ xxx).children().children().children(".State-to-vote").append(
             `<div style="color: black">${i+1}号被投死，真实身份是${arr[i].name}</div>`
         );
@@ -115,8 +115,8 @@ $(".kill-box").click(function () {
     //day+0.1 可能会出现1.10000000001；所以用toFixed让它变成保留一位小数的字符串；然后用parseFloat将它变成数字
     day = parseFloat((day+0.1).toFixed(1));
     //原本应该是day=day+0.1，但是js计算不准确，所以先让它 用toFixed转换为字符串，再用parseFloat变成数字
-    // console.log(day);
-    // console.log(typeof (day));//判断数据类型
+    console.log(day);
+    console.log(typeof (day));//判断数据类型
     sessionStorage.setItem("DAY",JSON.stringify(day));//上传数据
     window.location="js-sharen.html";
     //这个不做禁点，是因为点击之后跳转了页面，就等于一次刷新，后面那个禁点能生效。
@@ -143,7 +143,7 @@ $(".liveTall").click(function () {
     if( (day%1).toFixed(1) == "0.3"){
         day = parseFloat((day+0.1).toFixed(1));
         alert("请活着的天才说话");
-        // console.log(day);
+        console.log(day);
         $(this).css("opacity","0.5");
         $(this).off("click");
     }else {
@@ -174,8 +174,8 @@ if ((day%1).toFixed(1) == "0.2") {
 for (i=1;i<parseInt(day);i++){
     //for循环作用，将目前的day天数之前选择出来
     var lasttime = dayEnglish[i];//获取前几天相对应的class名称，然后通过遍历变色和禁点。
-    // console.log(lasttime);//打印对应css的类的名称
-    // console.log("."+ lasttime);//检验$()搜索规则是否标准
+    console.log(lasttime);//打印对应css的类的名称
+    console.log("."+ lasttime);//检验$()搜索规则是否标准
     $("."+ lasttime).children(".vote").children(".box").children(".killer-to-kill").children(".but-box").css("opacity","0.5");
     $("."+ lasttime).children(".vote").children(".box").children(".killer-to-kill").children("but-box").off("click");
     $("."+ lasttime).children(".vote").hide();

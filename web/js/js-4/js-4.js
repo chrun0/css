@@ -1,5 +1,5 @@
 arr=JSON.parse(sessionStorage.getItem("gameplays"));//获得储存值
-// console.log(arr);
+console.log(arr);
 // ds=JSON.parse(sessionStorage.getItem("death"));
 // console.log(ds);
 // kl=JSON.parse(sessionStorage.getItem("killer"));
@@ -52,5 +52,6 @@ test();
 //开始游戏，将生成初始天数为什么要放在法官日志页面呢，因为法官日志页面跳转到法官日志页面的同事需要有天数的对象
 //这个需要提前生成传递，现在我们将对象传递到下一个页面
 var day=1.0;
-
+console.log(day)
 sessionStorage.setItem("DAY",JSON.stringify(day));
+

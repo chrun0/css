@@ -1,8 +1,8 @@
 arr=JSON.parse(sessionStorage.getItem("player"));//获得储存值//不会取浏览器中数组
-// console.log(arr);
+console.log(arr);
 //515
 day=JSON.parse(sessionStorage.getItem("DAY"));
-// console.log(day);
+console.log(day);
 //515
 
 
@@ -62,8 +62,8 @@ $(".kinging").css("background","#565656");//杀人页面的盒子到投票页面
 
 $("#checkNum").click(function () {
     var q=$(".lg-box").index(x); //index返回，q是选中盒子对应的数组下标
-    // console.log(q);
-    // console.log(arr[q].name );
+    console.log(q);
+    console.log(arr[q].name );
     if (arr[q].class == "kinging"){
         alert("你瞎么？玩家已经死了");
     }
@@ -94,10 +94,10 @@ function gameover() {
 
             if(arr[i].name=="平民"){
                 civiliansLiving++;
-                // console.log("剩下贫民人数",civiliansLiving);
+                console.log("剩下贫民人数",civiliansLiving);
             }else{
                 aliveKiller++;
-                // console.log("剩下杀手人数",aliveKiller);
+                console.log("剩下杀手人数",aliveKiller);
             }
         }
     };

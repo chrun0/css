@@ -1,7 +1,7 @@
 arr=JSON.parse(sessionStorage.getItem("player"));//获得储存值//不会取浏览器中数组
-// console.log(arr);
+console.log(arr);
 day=JSON.parse(sessionStorage.getItem("DAY"));
-// console.log(day);//获得初始化天数的对象
+console.log(day);//获得初始化天数的对象
 
 //放回第一个页面
 $("#back").click(function () {
@@ -92,18 +92,18 @@ for(i=0;i <arr.length ;i++){
         deadTime = arr[i].day;//找出死亡时间了；
             console.log("死亡时间",deadTime);
         var x = dayEnglish[deadTime];//获取对应的css的类的名称
-        // console.log(x);//打印对应css的类的名称
-        // console.log("."+ x);//检验$()搜索规则是否标准
+        console.log(x);//打印对应css的类的名称
+        console.log("."+ x);//检验$()搜索规则是否标准
         $("."+ x).children(".nightTip").append(
             `<p >晚上：${i+1}号被杀死，真实身份是${arr[i].name}</p>`
         )
     }
     if(arr[i].caonima=="被全民投票杀死" ){
         deadTime = arr[i].day;//找出死亡时间了；
-        // console.log("死亡时间",deadTime);
+        console.log("死亡时间",deadTime);
         var x = dayEnglish[deadTime];//获取对应的css的类的名称
-        // console.log(x);//打印对应css的类的名称
-        // console.log("."+ x);//检验$()搜索规则是否标准
+        console.log(x);//打印对应css的类的名称
+        console.log("."+ x);//检验$()搜索规则是否标准
         $("."+ x).children(".dayTip").append(
             `<p >白天：${i+1}号被投死，真实身份是${arr[i].name}</p>`
         )

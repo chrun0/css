@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-image: url("img/008.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body .page {
+    background: #365c6f;
+    width: 350px;
+    opacity: 0.6;
+    border-radius: 10px; }
+  body p {
+    text-align: center;
+    color: #009688; }
+  body .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 50px;
+    margin: 20px 20px 0px 20px; }
+    body .input-box img {
+      border-right: 1px solid #ccc;
+      margin-right: 10px; }
+    body .input-box input {
+      width: 80%;
+      border: none;
+      outline: none; }
+  body .but {
+    width: 89%;
+    text-align: center;
+    line-height: 50px;
+    background: #009688;
+    color: #fff;
+    margin: 40px 0 18px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px; }
+  body .hint {
+    color: #c82333; }
+
+/*# sourceMappingURL=js-5.css.map */

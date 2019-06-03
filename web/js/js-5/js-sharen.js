@@ -1,5 +1,5 @@
 arr=JSON.parse(sessionStorage.getItem("player"));//获得储存值//不会取浏览器中数组
-// console.log(arr);
+console.log(arr);
 // ds=JSON.parse(sessionStorage.getItem("death"));
 // console.log(ds);
 // kl=JSON.parse(sessionStorage.getItem("killer"));
@@ -9,8 +9,8 @@ arr=JSON.parse(sessionStorage.getItem("player"));//获得储存值//不会取浏
 
 //515
 day=JSON.parse(sessionStorage.getItem("DAY"));
-// console.log(day);
-// console.log(typeof (day))
+console.log(day);
+console.log(typeof (day))
 //515
 
 $(function(){
@@ -67,8 +67,8 @@ $(".lg-box").click(function () {
 $(".kinging").css("background","#565656");
 $("#checkNum").click(function () {
     var q=$(".lg-box").index(x); //index返回，q是选中盒子对应的数组下表
-// console.log(q);
-// console.log(arr[q].name );
+console.log(q);
+console.log(arr[q].name );
 if(arr[q].name === "杀手"){
     //如果选中盒子的名字是杀手就执行下面的
     alert("你眼瞎吗");//弹窗
@@ -95,10 +95,10 @@ function gameover() {
 
             if(arr[i].name=="平民"){
                 civiliansLiving++;
-                // console.log("剩下贫民人数",civiliansLiving);
+                console.log("剩下贫民人数",civiliansLiving);
             }else{
                 aliveKiller++;
-                // console.log("剩下杀手人数",aliveKiller);
+                console.log("剩下杀手人数",aliveKiller);
             }
         }
     };

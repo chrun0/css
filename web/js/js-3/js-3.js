@@ -1,5 +1,5 @@
  arr=JSON.parse(sessionStorage.getItem("gameplays"));//获得储存值
-// console.log(arr);
+console.log(arr);
 // var b = document.getElementById("check-num");//获取一号身份
 // var b=$("#checkNum");
 //  console.log(b);
@@ -32,15 +32,15 @@ $("#imgno").hide();//隐藏第一张图片
 $("#checkNum").click(function () {
     //点击次数
     num=num+1;
-    // console.log(num+1-2);
+    console.log(num);
     //查看身份计算
     var test=(num+2)/2;
-    // console.log(test);
+    console.log(test);
     var transmit=Math.ceil(test);//向上取整数
-    // console.log(transmit);
+    console.log(transmit);
     //计算数组下标。
     var index=Math.floor(num/2) ;
-    // console.log(index);
+    console.log(index);
     if (num%2 ===0){
         $("#imgno").hide();
         $("#imgshow").show();
@@ -66,7 +66,7 @@ $("#checkNum").click(function () {
         $("#checkNum").text("法官页面");
         window.location="../js-4/js-4.html";
     }
-    // console.log(num);
+    console.log(num);
 });
 //数组生成对象
 function storeValue() {
