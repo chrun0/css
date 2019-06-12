@@ -8,28 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0afc0e8-4f08-4b75-bd9f-70bf32bb9cc8" name="Default Changelist" comment="task01">
-      <change afterPath="$PROJECT_DIR$/js/js-6/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js-6/view1/view1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js-6/view1/view1.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js-6/view1/view1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js-6/view1/view1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js-6/view2/view2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js-6/view3/view3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js-6/view4/view4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CareerQuiz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CareerQuiz/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/js-5a/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-5a/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js-5a/js-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-6/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/js-6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/js-6/jquery/jquery-3.4.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js-6/js-6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js-6/js-6.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js-6/js-6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js-6/js-6.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/view1/view1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js-6/js-6.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小课堂/demo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/小课堂/demo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/小课堂/代码演示.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小课堂/代码演示.html" beforeDir="false" afterPath="$PROJECT_DIR$/小课堂/代码演示.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-6/view1/view1.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/view1/view1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-6/view1/view1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/view1/view1.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-6/view1/view1.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/view1/view1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-6/view1/view1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/view1/view1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-6/view1/view1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/view1/view1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-6/view2/view2.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/view2/view2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-6/view3/view3.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/view3/view3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-6/view4/view4.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/view4/view4.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +51,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/小课堂/2019-6-12-js-5.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="508">
-                  <caret line="129" column="15" lean-forward="true" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="29" />
+                <state relative-caret-position="565">
+                  <caret line="161" column="73" lean-forward="true" selection-start-line="161" selection-start-column="28" selection-end-line="161" selection-end-column="73" />
                   <folding>
                     <element signature="n#style#0;n#section#11;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -216,6 +208,24 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -522,7 +532,7 @@
       <workItem from="1560215751337" duration="24447000" />
       <workItem from="1560300983485" duration="5830000" />
       <workItem from="1560314373574" duration="6789000" />
-      <workItem from="1560329666528" duration="2481000" />
+      <workItem from="1560329666528" duration="3156000" />
     </task>
     <task id="LOCAL-00001" summary="task01">
       <created>1550551656256</created>
@@ -542,7 +552,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2094536000" />
+    <option name="totallyTimeSpent" value="2095211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,7 +565,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.13671875" />
       <window_info id="Structure" order="1" sideWeight="0.5042493" side_tool="true" weight="0.19022457" />
@@ -924,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/小课堂/2019-6-12-js-5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="129" column="15" lean-forward="true" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="29" />
+        <state relative-caret-position="565">
+          <caret line="161" column="73" lean-forward="true" selection-start-line="161" selection-start-column="28" selection-end-line="161" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#section#11;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
