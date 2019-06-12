@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>葡萄藤PPT</title>
+
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/reveal.css">
+
+    <!-- PPT主题，可以在/css/reveal/theme/中选择其他主题，目前暂时只能使用该模板 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/theme/ptt.css">
+
+    <!-- syntax highlighting 代码高亮主题 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/lib/reveal/css/zenburn.css">
+
+    <style>
+        .float {
+            float: left;
+        }
+
+        p.font {
+            text-align: left;
+        }
+    </style>
+
+
+    <!-- 打印和PDF输出样式 -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ?
+            'https://ptteng.github.io/PPT/css/reveal/print/pdf.css' : '../css/reveal/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+<img src="img/2018-11-16-A-css01/logo.png" alt="" usemap="#pttmap" class="base-logo" style="visibility: hidden">
+<map name="pttmap">
+    <area shape="rect" coords="0,0,276,58" href="http://www.jnshu.com/" alt="" target="_blank">
+</map>
+<div class="reveal slide center" role="application" data-transition-speed="default" data-background-transition="fade">
+    <div class="slides" style="width: 960px; height: 700px; left: 50%; top: 50%; bottom: auto; right: auto; transform: translate(-50%, -50%) scale(0.794571);">
+        <section class="present" style="top: 234px; display: block;">
+            <h3>【js-task-5】 如何使用PostMan？</h3>
+            <p style="text-align: center;">分享人：崔浩然</p>
+
+        </section>
+        <section class="future" style="top: 3px; display: block;" hidden="" aria-hidden="true">
+            <p>目录</p>
+            <p>1. 背景介绍</p>
+            <p>2. 知识剖析</p>
+            <p>3. 常见问题</p>
+            <p>4. 解决方案</p>
+            <p>5. 编码实战</p>
+            <p>6. 扩展思考</p>
+            <p>7. 参考文献</p>
+            <p>8. 更多讨论</p>
+        </section>
+        <section class="future" style="top: 267px; display: block;" hidden="" aria-hidden="true">
+            <h3>一、背景介绍</h3>
+        </section>
+        <section class="future" style="top: 190px; display: none;" hidden="" aria-hidden="true">
+            <p>当开发人员需要调试一个网页是否运行正常，并不是简简单单地调试网页的HTML、CSS、脚本等信息是否运行正常，
+                更加重要的是网页能够正确是处理各种HTTP请求，毕竟网页的HTTP请求是网站与用户之间进行交互的非常重要的一
+                种方式，在动态网站中，用户的大部分数据都需要通过HTTP请求来与服务器进行交互。Postman插件就充当着这种交互方式的“桥梁”
+            </p>
+            <img src="img/ZK(W2{12GD1SXD@8OYEI8]6.png" height="161" width="521"/></section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>二、知识剖析</h3>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <p>Postman安装</p>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <P>1、Postman最早是作用chrome浏览器插件存在的，所以，你可以到chrome商店搜索下载安装，因为重所周知的原因，所以，大家都会找别人共享的postman插件文件来安装。由于2018年初Chrome停止对Chrome应用程序的支持。</p>
+            <p>  2、Postman提供了独立的安装包，不再依赖于Chrome浏览器了。同时支持MAC、Windows和Linux，推荐你使用这种方式安装。https://www.getpostman.com/apps</p>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>三、常见问题</h3>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <p>如何使用postman测试接口？</p>
+            <p>GET和POST的区别</p>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>四、解决办法</h3>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <img src="img/articlex.png" height="485" width="800"/></section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            从标准上来看，GET 和 POST 的区别如下：
+            <p>GET 用于获取信息，是无副作用的，是幂等的，
+                且可缓存 POST 用于修改服务器上的数据，有副作用，非幂等，不可缓存</p>
+            <p>get是从服务器上获取数据，post是向服务器传送数据。</p>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            剖析:
+            <p>
+                Get 方法通过 URL 请求来传递用户的数据，将表单内各字段名称与其内容， 以成对的字符串连接，
+                置于 action 属性所指程序的 url 后，数据都会直接显示在 url 上，就像用户点击一个链接一样；
+                Post 方法通过 HTTP post 机制，将表单内各字段名称与其内容放置在 HTML 表头(header)内一起传
+                送给服务器端交由 action 属性能所指的程序处理， 该程序会通过标准输入(stdin)方式，将表单的数
+                据读出并加以处理；
+            </p>
+            <p>Get 方式需要使用 Request，QueryString 来取得变量的值；而 Post 方式通过RequestForm 来访问提交的内容；</p>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+        <p>
+            Get 方式传输的数据量非常小，一般限制在 2 KB 左右，但是执行效率却比 Post 方法好；而 Post
+            方式传递的数据量相对较大，它是等待服务器来读取数据，不过也有字节限制，这是为了避免对服务器
+            用大量数据进行恶意攻击。 建议：除非你肯定你提交的数据可以一次性提交，否则请尽量用 Post 方法 ；
+        </p>
+        <p>
+            Get 方式提交数据，会带来安全问题，比如一个登陆页面，通过 Get 方式提交数据时，用户名和密码将出现在 URL 上，
+            如果页面可以被缓存或者其他人可以访问客户这台机器，就可以从历史记录获得该用户的帐号和密码，
+            所以表单提交建议使用 Post 方法
+        </p>
+        <p>get方式的安全性较Post方式要差些，包含机密信息的话，建议用Post数据提交方式；
+            在做数据查询时，建议用Get方式；而在做数据添加、修改或删除时，建议用Post方式。</p>
+            <h3>五、编码实战</h3>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>六、拓展思考</h3>
+        </section>
+        <section class="future" style="top: 97.5px; display: none;" hidden="" aria-hidden="true">
+            <p>PostMan的优点和缺点？</p>
+            <pre>
+     优点:门槛低,上手快
+
+     优点: 脚本语言是js
+
+     优点:自带各种代码模块
+
+     优点:跨平台
+
+     优点: 免费版就已经非常强大了,支持http,https协议
+
+     优点:有命令行版本,newman,方便放在服务器上运行,或者jenkins做持续集成
+
+     优点: 支持抓包,保存历史记录,多终端同步用例
+
+     优点: 支持读取数据文件,json,csv
+
+     优点:支持json Schema校验
+
+     优点: 如果项目有Swagger生成API文档,JSON文件可以直接导入Postman来生成用例
+
+     不支持:通过url搜索用例,通过命令行传参修改环境变量,不能指定执行失败的测试用例
+
+     不理想:不能操作文件相关的操作,不能读写数据库,不能使用非HTTP协议
+
+     不理想:封装公共函数,引入第三方,自己写的js库,用例间的跳转,重试等</pre>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>七、参考文献</h3>
+        </section>
+        <section class="future" style="top: 178px; display: none;" hidden="" aria-hidden="true">
+            <p>参考一：<a href="https://www.cnblogs.com/yunman/p/7884537.html"></a>Postman使用详解 - YunMan - 博客园</p><br>
+            <!--<p>参考二： <a href="https://www.cnblogs.com/baiyangyuanzi/p/6518218.html"></a>使用slice和concat对数组的深拷贝和浅拷贝</p><br>-->
+
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>八、更多讨论</h3>
+        </section>
+        <section class="future" style="top: 202.5px; display: none;" hidden="" aria-hidden="true">
+            <h3>感谢观看</h3>
+        </section>
+    </div>
+    <div class="backgrounds"><div class="slide-background present" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;"><button class="navigate-left" aria-label="previous slide"></button><button class="navigate-right enabled" aria-label="next slide"></button><button class="navigate-up" aria-label="above slide"></button><button class="navigate-down" aria-label="below slide"></button></aside><div class="slide-number" style="display: none;"></div><div class="speaker-notes" data-prevent-swipe=""></div><div class="pause-overlay"></div><div id="aria-status-div" aria-live="polite" aria-atomic="true" style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);">
+    【js-task-5】 如何使用PostMan？
+    分享人：崔浩然
+</div></div>
+<script src="https://ptteng.github.io/PPT/lib/reveal/js/head.min.js"></script>
+<script src="https://ptteng.github.io/PPT/lib/reveal/reveal.js"></script>
+<script>
+    Reveal.initialize({
+        history: true,
+        dependencies: [{
+            src: 'https://ptteng.github.io/PPT/plugin/markdown/marked.js'
+        },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/markdown/markdown.js'
+            },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/notes/notes.js',
+                async: true
+            },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+</script>
+
+</body></html>

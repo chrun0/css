@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-    <link rel="stylesheet" href="js-6.css">
+    <title>登录页</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="view1/view1.css">
 </head>
-<body>
+<!--ng-app内置指令，启动anjularjs框架-->
+<body ng-app="entry-page">
+<div ng-view></div>
+
+
+
+
+<!--这是引入anjularjs-->
+<script src="bower_components/angular/angular.js"></script>
+<!--这是引入anjular-routejs-->
+<script src="bower_components/angular-route/angular-route.js"></script>
+<!--这是引入jquery-->
+<script src="bower_components/jquery/jquery.js"></script>
+<!--这是引入abootstrap-->
+<script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.5/js/bootstrap.js"></script>
+<script src="bower_components/angular-messages/angular-messages.js"></script>
+<!--这是引入路由js文件-->
+<script src="app.js"></script>
+<script src="view1/view1.js"></script>
 </body>
-<script src="jquery/jquery-3.4.0.js"></script>
-<script src="js-6.js"></script>
 </html>

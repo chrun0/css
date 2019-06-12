@@ -1,0 +1,42 @@
+<div class="background">
+<div class="container page">
+        <p>后台登录</p>
+    <form name="myForm">
+    <div class="row input-box">
+        <img src="img/00(1).png" height="32" width="32"/>
+        <input class="form-group" id="account" onkeyup="this.value=this.value.replace(/[^\w_]/g,'');"
+               type="text"  placeholder="请输入账号" name="account" ng-model="user.account" ng-minlength="3" ng-maxlength="9" required>
+        <!--检验提示信息-->
+        <div ng-messages="myForm.account.$error" role="alert">
+            <!--ng-messages里的myForm对应的当前的form的name值，
+            ng-messages里myForm后面的name就是要校验的input的name的值了，
+            最后的$error表示这个input数据不对就显示出来，可以在里面继续校验具体哪里不正确，
+            比如这里的子元素上添加ng-message="minlength"，就是当input设置了ng-minlength后，
+            输入的内容不满足设置的minlength，就显示minlength的提示信息。-->
+            <div ng-message="minlength">至少3位</div>
+            <div ng-message="maxlength">最多9位</div>
+            <div ng-message="required">不能为空</div>
+        </div>
+    </div>
+    <div class="row input-box">
+        <img src="img/00o (2).png" height="32" width="32"/>
+        <input id="password" type="text" style="-webkit-text-security:disc" placeholder="请输入密码"
+               type="text"  placeholder="请输入账号" name="passwords" ng-model="user.passwords" ng-minlength="6" ng-maxlength="15" required>
+        <div ng-messages="myForm.passwords.$error" role="alert" >
+            <div ng-message="minlength">至少6位</div>
+            <div ng-message="maxlength">最多15位</div>
+            <div ng-message="required">不能为空</div>
+        </div>
+    </div>
+    <p class="hint" id="hint"></p>
+    <!--<button type="button" class="but" onclick="login()">登录</button>-->
+
+    <div id="button" class=" row but" type="button" onclick="login()">登录</div>
+    <div>
+        <a href="#!/view2">这是去第2个 页面</a>
+    </div>
+    </form>
+</div>
+
+
+</div>

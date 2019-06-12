@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="entry-page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>todolist</title>
+
+    <style>
+
+    </style>
+</head>
+<!--ng-app内置指令，启动anjularjs框架-->
+<body ng-controller="todolist">
+<!--为了建立数据绑定，我们需要用到ng-model指令，改指令只能用于在表单元素上，下面是方法-->
+<input type="text" ng-model="todo">--
+<button ng-click="doAdd()">增加</button>
+<br><br><br>
+
+{{list}}
+<br>
+-----进行中的任务------
+<ui>
+    <li ng-repeat="(kkk,asbd) in list" ng-if="!asbd.status">
+        <input type="checkbox" ng-model="asbd.status">
+        ---{{asbd.title}}---<button ng-click="removeData(kkk)">删除</button>       </li>
+</ui>
+<hr>
+<br><br><br>
+
+<br>
+-----完成中的任务-------
+<ui>
+    <li ng-repeat="(kkk,asbd) in list" ng-if="asbd.status">
+        <input type="checkbox" ng-model="asbd.status">
+        ---{{asbd.title}}---<button ng-click="removeData(kkk)">删除</button>       </li>
+</ui>
+
+
+
+
+
+
+
+
+
+
+<!--这是引入anjularjs-->
+<script src="bower_components/angular/angular.js"></script>
+<!--这是引入anjular-routejs-->
+<script src="bower_components/angular-route/angular-route.js"></script>
+<!--这是引入jquery-->
+<!--<script src="bower_components/jquery/jquery.js"></script>-->
+<!--这是引入abootstrap-->
+<!--<script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.5/js/bootstrap.js"></script>-->
+<!--<script src="bower_components/angular-messages/angular-messages.js"></script>-->
+<!--这是引入路由js文件-->
+<script src="app.js"></script>
+
+</body>
+</html>
