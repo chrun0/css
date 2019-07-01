@@ -4,12 +4,16 @@
     <bookmark url="file://$PROJECT_DIR$/js/js-2/js-02.js" line="1" />
     <bookmark url="file://$PROJECT_DIR$/js/js-3/js-3.js" line="76" />
     <bookmark url="file://$PROJECT_DIR$/js/js-5/js-over.html" line="19" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/js/js-6/index.html" line="30" />
+    <bookmark url="file://$PROJECT_DIR$/js/js-6/index.html" line="34" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0afc0e8-4f08-4b75-bd9f-70bf32bb9cc8" name="Default Changelist" comment="task01">
+      <change afterPath="$PROJECT_DIR$/js/js-6/view2/view2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/js-6/view2/view2.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CareerQuiz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CareerQuiz/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dm/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dm/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/dm/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/js-5a/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-5a/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/js-6/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/js-6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/js-6/index.html" afterDir="false" />
@@ -36,35 +40,65 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5231373">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/js-6/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+                <state relative-caret-position="627">
+                  <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/小课堂/2019-6-12-js-5.html">
+            <entry file="file://$PROJECT_DIR$/js/js-6/view2/view2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="565">
-                  <caret line="161" column="73" lean-forward="true" selection-start-line="161" selection-start-column="28" selection-end-line="161" selection-end-column="73" />
+                <state relative-caret-position="488">
+                  <caret line="109" column="42" lean-forward="true" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/js-6/view2/view2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
                   <folding>
-                    <element signature="n#style#0;n#section#11;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/task08/task08.html">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/dm/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="640">
+                  <caret line="41" selection-start-line="41" selection-end-line="41" />
+                  <folding>
+                    <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/js-6/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+                <state relative-caret-position="437">
+                  <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -73,30 +107,17 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/js-6/view1/view1.html">
+            <entry file="file://$PROJECT_DIR$/js/js-6/view1/view1.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="722">
-                  <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+                <state relative-caret-position="76">
+                  <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/js-6/view1/view1.js">
+            <entry file="file://$PROJECT_DIR$/js/js-6/view2/view2.scss">
               <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/js-5a/js-5.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="608">
-                  <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-                </state>
-              </provider>
             </entry>
           </file>
         </leaf>
@@ -111,9 +132,9 @@
         <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="AMD JavaScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -136,8 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/task08/task08.html" />
-        <option value="$PROJECT_DIR$/js/js-5/js-log.scss" />
         <option value="$PROJECT_DIR$/js/js-5/js-log.html" />
         <option value="$PROJECT_DIR$/js/js-5/js-5.scss" />
         <option value="$PROJECT_DIR$/js/js-5/js-over.scss" />
@@ -153,7 +172,6 @@
         <option value="$PROJECT_DIR$/js/js-5a/js-5.html" />
         <option value="D:/qq/消息记录/945352840/FileRecv/index.html" />
         <option value="D:/qq/消息记录/945352840/FileRecv/Task5.js" />
-        <option value="$PROJECT_DIR$/js/js-5a/js-5.js" />
         <option value="$PROJECT_DIR$/js/index.html" />
         <option value="$PROJECT_DIR$/js/js-5a/js-5.scss" />
         <option value="$PROJECT_DIR$/js/js-3/js-3.js" />
@@ -166,35 +184,38 @@
         <option value="$PROJECT_DIR$/js/js-6/js-6.html" />
         <option value="$PROJECT_DIR$/js/js-6/js-6.js" />
         <option value="$PROJECT_DIR$/js/js-6/js-6.scss" />
-        <option value="$PROJECT_DIR$/js/js-6/view2/view2.html" />
         <option value="$PROJECT_DIR$/js/js-6/view3/view4.html" />
         <option value="$PROJECT_DIR$/js/js-6/view4/view4.html" />
         <option value="$PROJECT_DIR$/css/task13/task13.html" />
         <option value="$PROJECT_DIR$/js/js-6/view3/view3.html" />
         <option value="$PROJECT_DIR$/js/js-5a/index.html" />
-        <option value="$PROJECT_DIR$/js/js-6/app.js" />
         <option value="D:/qq/消息记录/945352840/FileRecv/view1_login.html" />
-        <option value="$PROJECT_DIR$/js/dm/index.html" />
         <option value="D:/qq/消息记录/945352840/FileRecv/task14.html" />
         <option value="D:/qq/消息记录/945352840/FileRecv/task14.scss" />
         <option value="$PROJECT_DIR$/小课堂/代码演示.html" />
         <option value="$PROJECT_DIR$/小课堂/代码演示.css" />
         <option value="$PROJECT_DIR$/小课堂/demo.scss" />
         <option value="$PROJECT_DIR$/js/dm/view1/view1.scss" />
-        <option value="$PROJECT_DIR$/js/dm/app.js" />
         <option value="$PROJECT_DIR$/js/js-6/view1/view1.scss" />
-        <option value="$PROJECT_DIR$/js/js-6/view1/view1.html" />
         <option value="$PROJECT_DIR$/小课堂/2019-6-12-js-5.html" />
+        <option value="$PROJECT_DIR$/js/js-6/view1/view1.html" />
         <option value="$PROJECT_DIR$/js/js-6/view1/view1.js" />
+        <option value="$PROJECT_DIR$/js/js-6/view2/view2.scss" />
+        <option value="$PROJECT_DIR$/js/js-6/app.js" />
+        <option value="$PROJECT_DIR$/js/dm/index.html" />
+        <option value="$PROJECT_DIR$/js/dm/app.js" />
+        <option value="$PROJECT_DIR$/js/js-5a/js-5.js" />
         <option value="$PROJECT_DIR$/js/js-6/index.html" />
+        <option value="$PROJECT_DIR$/js/js-6/view2/view2.js" />
+        <option value="$PROJECT_DIR$/js/js-6/view2/view2.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="185" />
-    <option name="y" value="45" />
-    <option name="width" value="1440" />
-    <option name="height" value="775" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,37 +234,23 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="task10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="dm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="dm" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="小课堂" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="小课堂" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +258,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SCSS" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/qq/消息记录/945352840/FileRecv/2019.3.24-A组-CSS-9(1)/20190413-D-js-4.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../task6" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -532,7 +540,14 @@
       <workItem from="1560215751337" duration="24447000" />
       <workItem from="1560300983485" duration="5830000" />
       <workItem from="1560314373574" duration="6789000" />
-      <workItem from="1560329666528" duration="3156000" />
+      <workItem from="1560329666528" duration="3807000" />
+      <workItem from="1560353577869" duration="675000" />
+      <workItem from="1560387288348" duration="26642000" />
+      <workItem from="1560473729500" duration="6250000" />
+      <workItem from="1560497763067" duration="19175000" />
+      <workItem from="1560560248721" duration="17321000" />
+      <workItem from="1560687079072" duration="650000" />
+      <workItem from="1560736786061" duration="5272000" />
     </task>
     <task id="LOCAL-00001" summary="task01">
       <created>1550551656256</created>
@@ -552,7 +567,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2095211000" />
+    <option name="totallyTimeSpent" value="2171847000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,7 +581,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.13671875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.15885417" />
       <window_info id="Structure" order="1" sideWeight="0.5042493" side_tool="true" weight="0.19022457" />
       <window_info id="Favorites" order="2" sideWeight="0.5042493" side_tool="true" weight="0.24966975" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -670,43 +685,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/js-5/js-log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/js-6/js-6.html" />
-    <entry file="file://$PROJECT_DIR$/js/js-5a/js-5.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task07/task07.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task13/task13.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/js-6/view2/view2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task13/task1-3.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/task13/task13.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -731,16 +709,6 @@
     <entry file="file://$PROJECT_DIR$/css/task14/task-lun-14.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/js-5a/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/js-6/view3/view3.html">
@@ -829,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dm/view1/view1.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/dm/view1/view1.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -847,26 +808,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/dm/view1/view1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dm/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dm/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dm/view1/view1.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/js-6/view1/view1.css">
@@ -894,49 +835,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js-6/app.js">
+    <entry file="file://D:/qq/消息记录/945352840/FileRecv/view1_login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小课堂/2019-6-12-js-5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="565">
+          <caret line="161" column="73" selection-start-line="161" selection-start-column="28" selection-end-line="161" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#section#11;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js-6/view1/view1.html">
+    <entry file="file://$PROJECT_DIR$/js/js-5a/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="532">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/qq/消息记录/945352840/FileRecv/view1_login.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/1000xm2.url" />
+    <entry file="file://$PROJECT_DIR$/js/dm/view1/view1.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js-6/view1/view1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/js-6/index.html">
+    <entry file="file://$PROJECT_DIR$/js/js-6/view1/view1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="684">
+          <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dm/view1/view1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/js-5a/js-5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state relative-caret-position="399">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小课堂/2019-6-12-js-5.html">
+    <entry file="file://$PROJECT_DIR$/js/dm/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="161" column="73" lean-forward="true" selection-start-line="161" selection-start-column="28" selection-end-line="161" selection-end-column="73" />
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="n#style#0;n#section#11;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js-6/view2/view2.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js-6/view1/view1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dm/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js-6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task10/task10.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js-6/view2/view2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task08/task08.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js-6/view2/view2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="109" column="42" lean-forward="true" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js-6/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

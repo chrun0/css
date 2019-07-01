@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="file"  id="file"  onchange="changepic(this)" accept="image/jpg,image/jpeg,image/png,image/PNG">
+
+<!--当vaule值改变时执行changepic函数，规定上传的文件只能是图片-->
+<hr>
+<hr>
+<br>
+<img src="#" id="img3" />
+
+
+<script>
+   function changepic() {
+
+       f = document.getElementById('file').files[0];
+       console.log(f);
+
+       var reads = new FileReader();
+       reads.readAsDataURL(f);
+
+       reads.onload= function (e) {
+           console.log(e.target.result);
+
+           document.getElementById('img3').src=e.target.result;
+       }
+
+
+
+
+
+   }
+
+
+</script>
+
+</body>
+</html>
+
+<!--选择一个文件-->
+<!--<input type="file" >-->
+
+<!--只能选图片-->
+<!--<input type="file"  accept="image/jpg,image/jpeg,image/png,image/PNG">-->
+
+<!--获取选择的文件-->
+<!--f = document.getElementById('file').files[0];-->
+<!--需要注意的是 用onchange 而不是onclick-->
+<!-- “.files[0]” g固定用法，来获取input选择的文件-->
+
+<!--图片转码-->
+<!--先调用一个函数来读取他-->
+<!--var reads = new FileReader();-->
+<!--FileReader就是html5为我们提供的读取文件的api。它的作用就是把文本流按指定格式读取到缓存，以供js调用。
+FileReader有四种读取文件的方式：
+1. readAsBinaryString读取为二进制码
+2. readAsDataURL读取为 DataURL
+3. readAsText读取为文本
+4. readAsArrayBuffer-->
+
+
+
+
+
+
+
+<!--一个函数的引用-->
+
+
+

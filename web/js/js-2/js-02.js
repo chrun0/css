@@ -79,14 +79,14 @@ function allocation() {
 var e = document.getElementById("Water-people");
 var d = document.getElementById("spirit");
 function go() {
-    // console.log(e && d);//打印e和d
-    // if (e.value!= "" && d.value!="") {
+    console.log(e && d);//打印e和d
+    if (e.value!= "" && d.value!="") {
         window.location="../js-3/js-3.html"
-    // }//value不等于空
-    // else {
-    //     alert("请输入词组")
-    //
-    // }
+    }//value不等于空
+    else {
+        alert("请输入词组")
+
+    }
 }
 function shuffle() {
     // console.log(civilian);

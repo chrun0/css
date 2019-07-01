@@ -1,0 +1,50 @@
+.background-picture {
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 100vh; }
+  .background-picture .left {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 49px;
+    border-bottom: solid #fff 1px; }
+  .background-picture .right {
+    background: #fff;
+    line-height: 50px;
+    display: flex;
+    justify-content: flex-end; }
+    .background-picture .right span {
+      color: #3F51B5; }
+    .background-picture .right p {
+      color: #daf403;
+      margin: 0; }
+    .background-picture .right img {
+      margin-top: 10px; }
+  .background-picture .content-top {
+    padding-top: 20px; }
+
+.content-top .panel {
+  background-color: transparent;
+  box-shadow: none; }
+.content-top .panel-default > .panel-heading {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent; }
+.content-top .panel-default {
+  border-color: transparent;
+  border-bottom: transparent; }
+.content-top .panel-group .panel-heading + .panel-collapse > .list-group, .content-top .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: none; }
+.content-top a:focus, .content-top a:hover {
+  text-decoration: none; }
+.content-top .color {
+  color: #fff;
+  font-weight: bolder; }
+
+.view3 {
+  display: flex;
+  background-color: #eee;
+  min-height: calc(100vh - 50px); }
+
+/*# sourceMappingURL=view2.css.map */

@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>葡萄藤PPT</title>
+
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/reveal.css">
+
+    <!-- PPT主题，可以在/css/reveal/theme/中选择其他主题，目前暂时只能使用该模板 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/theme/ptt.css">
+
+    <!-- syntax highlighting 代码高亮主题 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/lib/reveal/css/zenburn.css">
+
+    <style>
+        .float {
+            float: left;
+        }
+
+        p.font {
+            text-align: left;
+        }
+    </style>
+
+
+    <!-- 打印和PDF输出样式 -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ?
+            'https://ptteng.github.io/PPT/css/reveal/print/pdf.css' : '../css/reveal/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+<img src="img/2018-11-16-A-css01/logo.png" alt="" usemap="#pttmap" class="base-logo" style="visibility: hidden">
+<map name="pttmap">
+    <area shape="rect" coords="0,0,276,58" href="http://www.jnshu.com/" alt="" target="_blank">
+</map>
+<div class="reveal slide center" role="application" data-transition-speed="default" data-background-transition="fade">
+    <div class="slides" style="width: 960px; height: 700px; left: 50%; top: 50%; bottom: auto; right: auto; transform: translate(-50%, -50%) scale(0.794571);">
+        <section class="present" style="top: 234px; display: block;">
+            <h3>【JS-TASK6】 如何使用ui-router？</h3>
+
+            <p style="text-align: center;">分享人：崔浩然</p>
+
+        </section>
+        <section class="future" style="top: 3px; display: block;" hidden="" aria-hidden="true">
+            <p>目录</p>
+            <p>1. 背景介绍</p>
+            <p>2. 知识剖析</p>
+            <p>3. 常见问题</p>
+            <p>4. 解决方案</p>
+            <p>5. 编码实战</p>
+            <p>6. 扩展思考</p>
+            <p>7. 参考文献</p>
+            <p>8. 更多讨论</p>
+        </section>
+        <section class="future" style="top: 267px; display: block;" hidden="" aria-hidden="true">
+            <h3>一、背景介绍</h3>
+        </section>
+
+        <section class="future" style="top: 190px; display: none;" hidden="" aria-hidden="true">
+            <p>UI-Router被认为是AngularUI为开发者提供的最实用的一个模块，它是一个让开发者能够根据URL状态或者说是'机器状态'来组织和控制界面UI的渲染，
+                而不是仅仅只改变路由（传统AngularJS应用实用的方式）。该模块为开发者提供了很多最视图（view）额外的控制。开发者可以创建嵌套分层的视图、
+                在同一个页面使用多个视图、让多个视图控制某个视图等更多的功能。即使是非常复杂的web应用，UI-Router也可以极佳地驾驭。</p>
+        </section>
+
+
+
+
+
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>二、知识剖析</h3>
+        </section>
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <h3>使用前提：安装和引入</h3>
+            <p>安装：安装方式可以选择下载发行版本或者使用Bower（前端包管理器）：$ bower install angular-ui-router --save</p>
+            <p>引入：在html页面，script type="text/javascript" src="app/bower_components/angular-ui-router/release/angular-ui-router.js"></p>
+            <p>注入：将UI-Router作为web应用的依赖，注入到主程序；angular.module('myApp', ['ui.router']);</p>
+
+        </section>
+
+
+
+
+
+        <section class="future" style="top: 190px; display: none;" hidden="" aria-hidden="true">
+            <p>与ngRoute服务不同</p>
+            <p>UI-Router可以将视图嵌套，因为它基于的是操作状态而仅非URL。与传统做法使用ng-view不同的是，
+                在ngRoute里需要使用ui-view服务。当在ui-router中处理路由和状态时，开发者的重心是当前的状态是什么以及在哪一个页面里。</p>
+        </section>
+
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <h3>如何配置和使用</h3>
+            <p>第一：在html里，和ngRoute一样，为特定状态指定的模板将会放在div ui-view元素中。在这些模板中也可以包含自己的ui-view,</p>
+
+
+        </section>
+
+        <section class="future" style="top: 188px; display: none;" hidden="" aria-hidden="true">
+            <h3>定义路由</h3>
+            <p>与传统的方法相同：使用.config方式，但使用的不是$routeProvider而是$stateProvider。</p>
+            <pre>
+.config(function($stateProvider, $urlRouterProvider) {
+        $stateProvider
+              .state('start', {
+                     url: '/start',
+                     templateUrl: 'partials/start.html'
+               })
+});
+                    </pre>
+        </section>
+
+
+
+
+
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>三、常见问题</h3>
+        </section>
+
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>ui-router具体怎么实现路由界面</h3>
+
+        </section>
+
+
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>四、解决办法</h3>
+            <p>先设置主页面，在主页面搭好ng框架，放入ui-view。再写几个路由子页面，相当于把本来写在主页面上的一些标签单独放在.html文件里
+                。再去配置文件里，注入 ui-router，写配置模板，路径。见demo</p>
+        </section>
+
+
+
+
+
+
+
+
+
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>五、编码实战</h3>
+            <p>  综上所述，已经和大家展示过，这里就不多说</p>
+        </section>
+
+
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>六、拓展思考</h3>
+        </section>
+
+        <section class="future" style="top: 97.5px; display: none;" hidden="" aria-hidden="true">
+            <h3>ng-route和ui-router区别</h3>
+            <pre>
+                        ① ng路由实现不了多页面应用
+                    ② ui路由：更加方便地处理路由嵌套，在state（）函数中进行即可。
+                    ③ngRoute 和 ui-route 相比:
+
+                    $when —> $state      路由状态配置的时候
+
+                    $routeParams —> $stateParams    带参数的时候的配置
+
+                    $routeProvider —> $stateProvider    依赖注入的模块
+
+                div ng-view>/div  —>  div ui-view>/div>   页面中绑定的指令
+                ④ uiRoute中可以嵌套更深层次的路由，也就是路由中可以有路由（大致有两种情况：1.横向的 2.纵向的）。
+                　　（1）嵌套路由
+                　　（2）多视图路由
+                　　ngRoute中就不能嵌套更深的路由。
+                    </pre>
+        </section>
+
+
+
+
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>七、参考文献</h3>
+        </section>
+
+        <section class="future" style="top: 178px; display: none;" hidden="" aria-hidden="true">
+            <p>博客<br>
+
+
+
+            </p>
+        </section>
+        <section class="future" style="top: 267px; display: none;" hidden="" aria-hidden="true">
+            <h3>八、更多讨论</h3>
+        </section>
+
+        <section class="future" style="top: 202.5px; display: none;" hidden="" aria-hidden="true">
+            <h3>感谢观看</h3>
+        </section>
+    </div>
+    <div class="backgrounds"><div class="slide-background present" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;"><button class="navigate-left" aria-label="previous slide"></button><button class="navigate-right enabled" aria-label="next slide"></button><button class="navigate-up" aria-label="above slide"></button><button class="navigate-down" aria-label="below slide"></button></aside><div class="slide-number" style="display: none;"></div><div class="speaker-notes" data-prevent-swipe=""></div><div class="pause-overlay"></div><div id="aria-status-div" aria-live="polite" aria-atomic="true" style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);">
+    【JS-TASK6】 如何使用ui-router？
+
+    分享人：崔浩然
+</div></div>
+<script src="https://ptteng.github.io/PPT/lib/reveal/js/head.min.js"></script>
+<script src="https://ptteng.github.io/PPT/lib/reveal/reveal.js"></script>
+<script>
+    Reveal.initialize({
+        history: true,
+        dependencies: [{
+            src: 'https://ptteng.github.io/PPT/plugin/markdown/marked.js'
+        },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/markdown/markdown.js'
+            },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/notes/notes.js',
+                async: true
+            },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+</script>
+
+</body></html>

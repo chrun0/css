@@ -1,1 +1,62 @@
-<a href="#!/view3">去第三个页面</a>
+
+
+<div class="container-fluid background-picture">
+    <div class="row">
+        <div class=" col-xs-12  col-md-2   left">萝卜多后台管理系统</div>
+        <div class=" col-xs-12  col-md-10   right ">
+            <span>管理员</span>
+            <p>&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <span>admin</span>
+            <p>&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <img  ui-sref="view1"src="../img/ii.png" height="29" width="39"/></div>
+    </div>
+    <div class="row">
+        <div class="col col-md-2  col-xs-12 content-top">
+            <div ng-controller="AccordionDemoCtrl">
+                <script type="text/ng-template" id="group-template.html">
+                    <div class="panel-heading">
+                        <h4 class="panel-title" style="color:#fa39c3">
+                            <a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+          <span uib-accordion-header ng-class="{'text-muted': isDisabled}">
+            {{heading}}
+          </span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div class="panel-collapse collapse" uib-collapse="!isOpen">
+                        <div class="panel-body" style="text-align: right" ng-transclude></div>
+                    </div>
+                </script>
+                <uib-accordion close-others="oneAtATime">
+                    <div uib-accordion-group class="panel-default" is-open="status.open" >
+                        <uib-accordion-heading>
+                          后台管理 <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        </uib-accordion-heading>
+                        <div class="color">模块管理</div>
+                        <div class="color">角色管理</div>
+                        <div class="color">密码修改</div>
+                        <div class="color">账户管理</div>
+                    </div>
+                    <div uib-accordion-group class="panel-default" is-open="status.one">
+                        <uib-accordion-heading>
+                           信息管理 <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.one, 'glyphicon-chevron-right': !status.one}"></i>
+                        </uib-accordion-heading>
+                        <div class="color">公司列表</div>
+                        <div class="color">职位列表</div>
+                    </div>
+                    <div uib-accordion-group class="panel-default" is-open="status.two">
+                        <uib-accordion-heading>
+                        内容管理 <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.two, 'glyphicon-chevron-right': !status.two}"></i>
+                        </uib-accordion-heading>
+                        <div class="color" ui-sref=".view3" >Article列表</div>
+
+                    </div>
+                </uib-accordion>
+            </div>
+        </div>
+
+        <div class="col col-md-10 view3">
+            <div  ui-view style="width: 100%"></div>
+        </div>
+    </div>
+</div>

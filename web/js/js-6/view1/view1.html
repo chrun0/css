@@ -1,4 +1,4 @@
-<div class="background">
+<div ng-controller="view1" class="background">
 <div class="container page">
         <p>后台登录</p>
     <form name="myForm">
@@ -47,9 +47,9 @@ $touched
     <p class="hint" id="hint"></p>
     <!--<button type="button" class="but" onclick="login()">登录</button>-->
 
-    <div id="button" class="row but" type="button" onclick="login()">登录</div>
+    <div id="button" class="row but" type="button" ng-click="login()">登录</div>
     <div>
-        <a href="#!/view2">这是去第2个 页面</a>
+    <a ui-sref="view2.welcome">这是去第2个 页面</a>
     </div>
     </form>
 </div>

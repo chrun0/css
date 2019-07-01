@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACJ,OAAO,EAAE,SAAS;EAClB,eAAQ;IACN,OAAO,EAAE,IAAI;IACb,MAAM,EAAE,iBAAiB;;AAG7B,kBAAkB;EAChB,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,IAAI",
+"sources": ["view4.scss"],
+"names": [],
+"file": "view4.css"
+}

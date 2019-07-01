@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
@@ -7,10 +7,13 @@
     <title>登录页</title>
     <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="view1/view1.css">
+    <link rel="stylesheet" href="view2/view2.css">
+    <link rel="stylesheet" href="view3/view3.css">
+    <link rel="stylesheet" href="view4/view4.css">
 </head>
 <!--ng-app内置指令，启动anjularjs框架-->
-<body ng-app="entry-page">
-<div ng-view></div>
+<body >
+<div ui-view></div>
 
 
 
@@ -21,11 +24,24 @@
 <script src="bower_components/angular-route/angular-route.js"></script>
 <!--这是引入jquery-->
 <script src="bower_components/jquery/jquery.js"></script>
+
+<script src="bower_components/angular-messages/angular-messages.js"></script>
+
+<!--引入bootstrap和ui-bootstrap-->
+<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
 <!--这是引入abootstrap-->
 <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.5/js/bootstrap.js"></script>
-<script src="bower_components/angular-messages/angular-messages.js"></script>
+<!--引入图片预览-->
+<script src="bower_components/angular-file-upload/dist/angular-file-upload.js"></script>
+<!--引入ui-router-->
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 <!--这是引入路由js文件-->
 <script src="app.js"></script>
 <script src="view1/view1.js"></script>
+<script src="view2/view2.js"></script>
+<script src="view3/view3.js"></script>
+<script src="view4/view4.js"></script>
+
 </body>
 </html>
